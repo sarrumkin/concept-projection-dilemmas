@@ -514,6 +514,11 @@
       "sentence_transformers",
       "transformers"
     ],
-    "source_hashes_unchanged": 194
+    "source_hashes_unchanged": 194,
+    "notebook_executed_code_cells": 5,
+    "notebook_errors": 0,
+    "notebook_embedded_figures": 3,
+    "table_rendering_dependency": "Jinja2==3.1.6",
+    "notebook_tested_from_anonymous_public_clone": true
   }
 }
