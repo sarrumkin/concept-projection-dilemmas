@@ -1,0 +1,52 @@
+name: Reproduce experiment
+
+permissions:
+  contents: read
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Run fresh model inference
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  cached:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - run: python reproduce.py --mode cached --output artifacts/cached
+      - run: python study/original/check_metrics.py
+      - run: python scripts/verify_release.py
+      - run: python study/original/execute_notebook.py notebooks/research.ipynb
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cached-reproduction
+          path: artifacts/cached
+
+  full:
+    if: github.event_name == 'workflow_dispatch' && inputs.full
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install torch==2.12.0 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r requirements-full.txt
+      - run: python reproduce.py --mode full --output artifacts/full
+      - uses: actions/upload-artifact@v4
+        with:
+          name: full-reproduction
+          path: artifacts/full

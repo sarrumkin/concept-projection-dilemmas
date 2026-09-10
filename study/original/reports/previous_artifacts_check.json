@@ -1,0 +1,18 @@
+{
+  "concept_layers_pilot": {
+    "artifact_hashes_verified": 45,
+    "verification_sha256": "647091b64237af161b6e8c964879460e4144458d35939d232d60697832e4d2d8"
+  },
+  "concept_layers_extensions": {
+    "artifact_hashes_verified": 35,
+    "verification_sha256": "9702c40a9b8e5248ac99b21c2e99b4d3fb325fd60a11b55040b71b63cb51872a"
+  },
+  "concept_layers_newtest": {
+    "artifact_hashes_verified": 43,
+    "verification_sha256": "8d803a8af1bd025efbd8baf2ff9a0798da09f3c30b8d09337cdbbcbd652ea179"
+  },
+  "concept_layers_triplets": {
+    "artifact_hashes_verified": 28,
+    "verification_sha256": "b7efee0ff57134824e62b6d4b835ffac873b1cdff29a072d0f671879e7b57eb2"
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "e479745",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "science",
+    "positive_topic": "arts",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e282243",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "sport",
+    "positive_topic": "healthcare",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e529610",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "healthcare",
+    "positive_topic": "agriculture",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e696200",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "public_services",
+    "positive_topic": "community_projects",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e888857",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "community_projects",
+    "positive_topic": "software",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e191647",
+    "conflict": "security_vs_care",
+    "anchor_topic": "software",
+    "positive_topic": "sport",
+    "negative_conflict": "health_vs_duty",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e661245",
+    "conflict": "security_vs_care",
+    "anchor_topic": "arts",
+    "positive_topic": "agriculture",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e630427",
+    "conflict": "security_vs_care",
+    "anchor_topic": "education",
+    "positive_topic": "public_services",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e867758",
+    "conflict": "security_vs_care",
+    "anchor_topic": "agriculture",
+    "positive_topic": "software",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e433119",
+    "conflict": "security_vs_care",
+    "anchor_topic": "small_business",
+    "positive_topic": "science",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e897599",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "science",
+    "positive_topic": "public_services",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e245015",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "sport",
+    "positive_topic": "small_business",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e797829",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "healthcare",
+    "positive_topic": "science",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e689149",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "public_services",
+    "positive_topic": "arts",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e293727",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "community_projects",
+    "positive_topic": "healthcare",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e904759",
+    "conflict": "freedom_vs_safety",
+    "anchor_topic": "software",
+    "positive_topic": "small_business",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e167029",
+    "conflict": "freedom_vs_safety",
+    "anchor_topic": "arts",
+    "positive_topic": "community_projects",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e295481",
+    "conflict": "freedom_vs_safety",
+    "anchor_topic": "education",
+    "positive_topic": "arts",
+    "negative_conflict": "security_vs_care",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e668083",
+    "conflict": "freedom_vs_safety",
+    "anchor_topic": "agriculture",
+    "positive_topic": "sport",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e796327",
+    "conflict": "freedom_vs_safety",
+    "anchor_topic": "small_business",
+    "positive_topic": "agriculture",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e814005",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "science",
+    "positive_topic": "software",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e367876",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "sport",
+    "positive_topic": "education",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e598211",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "healthcare",
+    "positive_topic": "education",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e716892",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "public_services",
+    "positive_topic": "small_business",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e358391",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "community_projects",
+    "positive_topic": "small_business",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e621976",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "software",
+    "positive_topic": "arts",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e192668",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "arts",
+    "positive_topic": "healthcare",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e905292",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "education",
+    "positive_topic": "agriculture",
+    "negative_conflict": "health_vs_duty",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e821660",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "agriculture",
+    "positive_topic": "community_projects",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e713368",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "small_business",
+    "positive_topic": "software",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e579873",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "science",
+    "positive_topic": "agriculture",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e406118",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "sport",
+    "positive_topic": "public_services",
+    "negative_conflict": "security_vs_care",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e936853",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "healthcare",
+    "positive_topic": "software",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e650040",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "public_services",
+    "positive_topic": "science",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e115286",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "community_projects",
+    "positive_topic": "education",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e782208",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "software",
+    "positive_topic": "public_services",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e579607",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "arts",
+    "positive_topic": "small_business",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e896152",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "education",
+    "positive_topic": "science",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e729209",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "agriculture",
+    "positive_topic": "arts",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e821044",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "small_business",
+    "positive_topic": "healthcare",
+    "negative_conflict": "health_vs_duty",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e168057",
+    "conflict": "fairness_vs_mercy",
+    "anchor_topic": "science",
+    "positive_topic": "community_projects",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e515293",
+    "conflict": "fairness_vs_mercy",
+    "anchor_topic": "sport",
+    "positive_topic": "arts",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e451329",
+    "conflict": "fairness_vs_mercy",
+    "anchor_topic": "healthcare",
+    "positive_topic": "sport",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e372525",
+    "conflict": "fairness_vs_mercy",
+    "anchor_topic": "public_services",
+    "positive_topic": "agriculture",
+    "negative_conflict": "security_vs_care",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e136130",
+    "conflict": "fairness_vs_mercy",
+    "anchor_topic": "community_projects",
+    "positive_topic": "public_services",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e280334",
+    "conflict": "privacy_vs_openness",
+    "anchor_topic": "software",
+    "positive_topic": "science",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e215267",
+    "conflict": "privacy_vs_openness",
+    "anchor_topic": "arts",
+    "positive_topic": "education",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e806677",
+    "conflict": "privacy_vs_openness",
+    "anchor_topic": "education",
+    "positive_topic": "healthcare",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e269940",
+    "conflict": "privacy_vs_openness",
+    "anchor_topic": "agriculture",
+    "positive_topic": "small_business",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e104500",
+    "conflict": "privacy_vs_openness",
+    "anchor_topic": "small_business",
+    "positive_topic": "community_projects",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e961947",
+    "conflict": "quality_vs_speed",
+    "anchor_topic": "science",
+    "positive_topic": "healthcare",
+    "negative_conflict": "health_vs_duty",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e989337",
+    "conflict": "quality_vs_speed",
+    "anchor_topic": "sport",
+    "positive_topic": "agriculture",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e920916",
+    "conflict": "quality_vs_speed",
+    "anchor_topic": "healthcare",
+    "positive_topic": "community_projects",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e161001",
+    "conflict": "quality_vs_speed",
+    "anchor_topic": "public_services",
+    "positive_topic": "software",
+    "negative_conflict": "health_vs_duty",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e809235",
+    "conflict": "quality_vs_speed",
+    "anchor_topic": "community_projects",
+    "positive_topic": "sport",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e676013",
+    "conflict": "personal_gain_vs_collective_impact",
+    "anchor_topic": "software",
+    "positive_topic": "agriculture",
+    "negative_conflict": "security_vs_care",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e664310",
+    "conflict": "personal_gain_vs_collective_impact",
+    "anchor_topic": "arts",
+    "positive_topic": "public_services",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e231603",
+    "conflict": "personal_gain_vs_collective_impact",
+    "anchor_topic": "education",
+    "positive_topic": "software",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 1,
+    "author": 1
+  },
+  {
+    "id": "e409792",
+    "conflict": "personal_gain_vs_collective_impact",
+    "anchor_topic": "agriculture",
+    "positive_topic": "science",
+    "negative_conflict": "security_vs_care",
+    "variant": 0,
+    "author": 1
+  },
+  {
+    "id": "e735008",
+    "conflict": "personal_gain_vs_collective_impact",
+    "anchor_topic": "small_business",
+    "positive_topic": "education",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 1,
+    "author": 1
+  }
+]

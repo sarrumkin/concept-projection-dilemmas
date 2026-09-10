@@ -1,0 +1,110 @@
+[
+  {
+    "id": "e948218",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "software",
+    "positive_topic": "science",
+    "negative_conflict": "security_vs_care",
+    "variant": 0,
+    "author": 0
+  },
+  {
+    "id": "e195720",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "arts",
+    "positive_topic": "education",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e629289",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "education",
+    "positive_topic": "healthcare",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 0,
+    "author": 0
+  },
+  {
+    "id": "e365088",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "agriculture",
+    "positive_topic": "small_business",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e899130",
+    "conflict": "ambition_vs_belonging",
+    "anchor_topic": "small_business",
+    "positive_topic": "community_projects",
+    "negative_conflict": "autonomy_vs_approval",
+    "variant": 0,
+    "author": 0
+  },
+  {
+    "id": "e227316",
+    "conflict": "security_vs_care",
+    "anchor_topic": "science",
+    "positive_topic": "healthcare",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e784832",
+    "conflict": "security_vs_care",
+    "anchor_topic": "sport",
+    "positive_topic": "agriculture",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 0,
+    "author": 0
+  },
+  {
+    "id": "e750120",
+    "conflict": "security_vs_care",
+    "anchor_topic": "healthcare",
+    "positive_topic": "community_projects",
+    "negative_conflict": "health_vs_duty",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e860383",
+    "conflict": "security_vs_care",
+    "anchor_topic": "public_services",
+    "positive_topic": "software",
+    "negative_conflict": "discipline_vs_comfort",
+    "variant": 0,
+    "author": 0
+  },
+  {
+    "id": "e535396",
+    "conflict": "security_vs_care",
+    "anchor_topic": "community_projects",
+    "positive_topic": "sport",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e760826",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "software",
+    "positive_topic": "agriculture",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 1,
+    "author": 0
+  },
+  {
+    "id": "e266383",
+    "conflict": "health_vs_duty",
+    "anchor_topic": "arts",
+    "positive_topic": "public_services",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 0,
+    "author": 0
+  }
+]

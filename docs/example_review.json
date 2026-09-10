@@ -1,0 +1,63 @@
+{
+  "purpose": "Иллюстративный read-only review уже посчитанных MiniLM384/240 троек; отбор выполнен после scoring и не является новым основным анализом.",
+  "hypothesis": "concept207 и hybrid50 чаще выбирают B по сравнению с исходным embedding, когда A и B разделяют конфликт, а A и C — предметную тему.",
+  "selection": {
+    "filter": "embedding score=0, concept207 score=1, hybrid50 score=1, оба финальных AI-аудита нормализованы к B",
+    "excluded_ids": ["e107194"],
+    "candidate_count_after_filter_and_exclusion": 33,
+    "candidates_read": 10,
+    "interpretation": "illustrative post-scoring subset; not a new corpus-wide estimate"
+  },
+  "independent_cosine_check": {
+    "source": "results/main_vectors.npz",
+    "method": "scipy.spatial.distance.cosine",
+    "max_absolute_difference_from_per_triplet_csv": 4.23e-12
+  },
+  "selected": [
+    {
+      "id": "e266383",
+      "conflict": "health_vs_duty",
+      "audit_1": "B",
+      "audit_2": "B",
+      "both_audits_agree": true,
+      "embedding": {"dAB": 0.8714987503522733, "dAC": 0.6595981161755896, "score": 0},
+      "concept207": {"dAB": 0.6170082568765312, "dAC": 1.0188951122757723, "score": 1},
+      "hybrid50": {"dAB": 0.7442535036144022, "dAC": 0.839246614225681, "score": 1},
+      "reason": "A/B: личное здоровье против принятой общественной обязанности; A/C: искусство, но традиция против технологической замены."
+    },
+    {
+      "id": "e495461",
+      "conflict": "security_vs_care",
+      "audit_1": "B",
+      "audit_2": "B",
+      "both_audits_agree": true,
+      "embedding": {"dAB": 0.7052703173444399, "dAC": 0.6157818250789938, "score": 0},
+      "concept207": {"dAB": 0.5490648968375285, "dAC": 0.6507890761404052, "score": 1},
+      "hybrid50": {"dAB": 0.6271676070909842, "dAC": 0.6332854506096994, "score": 1},
+      "reason": "A/B: личный финансовый резерв против помощи другому; A/C: научная правда против лояльности коллеге."
+    },
+    {
+      "id": "e365088",
+      "conflict": "ambition_vs_belonging",
+      "audit_1": "B",
+      "audit_2": "B",
+      "both_audits_agree": true,
+      "embedding": {"dAB": 0.5738268854567241, "dAC": 0.43633984854022567, "score": 0},
+      "concept207": {"dAB": 0.48518139284638817, "dAC": 0.6461685050099225, "score": 1},
+      "hybrid50": {"dAB": 0.5295041391515561, "dAC": 0.541254176775074, "score": 1},
+      "reason": "A/B: карьерное расширение против принадлежности сообществу; A/C: сельское хозяйство, но экспериментальная свобода против гарантированной безопасности."
+    }
+  ],
+  "corpus_context": {
+    "n_triplets": 240,
+    "embedding_correct": 111,
+    "embedding_accuracy": 0.4625,
+    "concept207_correct": 145,
+    "concept207_accuracy": 0.6041666666666666,
+    "hybrid50_correct": 133,
+    "hybrid50_accuracy": 0.5541666666666667,
+    "both_audits_agree_count": 225,
+    "human_validation": false,
+    "caveat": "AI-аудиты не являются независимой человеческой валидацией; выбор примеров не меняет основной анализ."
+  }
+}

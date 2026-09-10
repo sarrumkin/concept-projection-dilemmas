@@ -1,0 +1,33 @@
+{
+  "source_anchor_path": "notebooks/concept_layers_triplets/data/anchors_multi.npz",
+  "source_anchor_sha256": "667980697e4227a697bfeabb919e0044ddedf99a6cdad76ca63dca2f1108209b",
+  "copied_array_exact": true,
+  "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "python_model_weights_sha256": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b",
+  "app_model_config": "DecisionKernel/Resources/Models/paraphrase-multilingual-MiniLM-L12-v2/config.json",
+  "app_config_matches_python": true,
+  "author_part_sha256": {
+    "authored_0_part_0.json": "810af8eef3ff16978610f6acac9b9a0941a7f962ac51a1d29187852e766a393e",
+    "authored_0_part_1.json": "7da66f79f25527ce169fa96290ab13719a825e59182e5f22c717edf3d64e60d6",
+    "authored_0_part_2.json": "e76db92a8db52bb68bcb284de1c56f43a968ae41a68882cc69c284928b71325c",
+    "authored_0_part_3.json": "fb6b873389deef2a84dea31cd1a61d4f2b8972b3ceb9f7774a8eb91f7a35256c",
+    "authored_0_part_4.json": "84771d5cfce12ea9293c860aa21b59989ecee42d0ca764458be5c9b40400bfcb",
+    "authored_1_part_0.json": "f6c7cb31da2155b288d111f60267411b2bb5ac36d282994ea27160395216d417",
+    "authored_1_part_1.json": "89692d7e1d5adeefc90747ec539a085bcbd7a7c998d87d723fd5cc9604ccd4c6",
+    "authored_1_part_2.json": "34cdbc8c8dbd0eecd995c4def35822b2c1e2906153b3bc7548f7961bf6ee86e7",
+    "authored_1_part_3.json": "3efc696d217d5ffc1b3620c096f22ef78b6a63bfe6266e1e1f089d33b1dabfa6",
+    "authored_1_part_4.json": "8ab48da0931938b98c1817237fcd58cb3f5c00222ab09811f6abecb4d02cf67c",
+    "authored_2_part_0.json": "c3bf58f2f8138cf47bb4cef436cc4ae2e573fe812975906241c0dede5b44eb0e",
+    "authored_2_part_1.json": "b76040aafe36ce358d54a3f097b72de67d5a679745516b05bdb43716847da349",
+    "authored_2_part_2.json": "020c43ba553af18da7fed7497f52692da22087f1928ee1e2e81b1b28f93ed057",
+    "authored_2_part_3.json": "bccaf8f637b5e26263e3ade66159bf0dc4197cb684c2f6ed886d7850abc10e6c",
+    "authored_2_part_4.json": "7e3fc9b4215d069b4c6e126f79e3dc963fdb1a3b6ed642bafec7872572410005",
+    "authored_3_part_0.json": "586f10e04910aa8d0a7b94ae963e2119503645cbadbc4fa2861812a1e5e717ae",
+    "authored_3_part_1.json": "8db18d8afc8a5aedcd9a041e8688040806b901f99bf0b35abd1480425f630685",
+    "authored_3_part_2.json": "ae3968dd45549019960d12aef085a8ed962b3ee017bb8b5f76f97db672a8e2b2",
+    "authored_3_part_3.json": "d4f7eb854faa40dfd2367fa414991745437ec5b66907feb716b36770d102f02d",
+    "authored_3_part_4.json": "a163789ac38d92683958823cda3b7cbb630a7d1616f428d4c591797962445792"
+  },
+  "authorship": "Four AI author sequences with five literal parts each, gpt-5.6-sol, after rejected template attempt."
+}

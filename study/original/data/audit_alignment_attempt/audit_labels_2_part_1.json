@@ -1,0 +1,402 @@
+[
+  {
+    "id": "e175890",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh personal financial benefit from a choice against diffuse environmental or public costs imposed on many other people.",
+    "support_quote_X": "Should the director apply the ban equally or show mercy by allowing this teenager to attend?",
+    "support_quote_Y": "Should organizers pursue the revenue or preserve the garden to avoid those widespread costs?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e222314",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to disclose personally sensitive information to improve coordination or trust, or preserve privacy despite misunderstanding.",
+    "support_quote_X": "Should he explain the practice openly or protect his personal information while accepting continued confusion?",
+    "support_quote_Y": "Should she stay home to recover or fulfill her responsibility to the cast and audience?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e451329",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast applying an established equal rule with making a compassionate exception for someone facing serious hardship.",
+    "support_quote_X": "Should organizers add Aaron to the race?",
+    "support_quote_Y": "Should the center make the change?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e224123",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh consistent enforcement of a shared standard against excusing an individual whose hardship or accident caused the violation.",
+    "support_quote_X": "Should the receptionist make an exception for him or follow the rule enforced on others?",
+    "support_quote_Y": "Should she take the private income or reject the lease because of its dispersed cost to others?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e676013",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both compare private or short-term profit with widespread environmental damage and health costs imposed on surrounding communities.",
+    "support_quote_X": "Should he give her the savings?",
+    "support_quote_Y": "Which treatment should he use?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e534757",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit sustained repetitive practice for future mastery against immediate, easier entertainment and social pleasure.",
+    "support_quote_X": "Should she deliver the mural by Thursday or delay it to ensure durable workmanship?",
+    "support_quote_Y": "Should she persist with the daily lessons for later fluency or spend the journey on easier pleasures?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e491714",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh personal income from an environmentally harmful commercial choice against disturbance and resource costs borne by neighbors.",
+    "support_quote_X": "Should he recommend the yearly replacement or reject the offer because of the collective environmental cost?",
+    "support_quote_Y": "Should the neighborhood adopt the digital spectacle or preserve its established celebration?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e314391",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast adopting efficient digital systems with preserving a handwritten civic or scholarly ritual valued across generations.",
+    "support_quote_X": "Should the council move to digital announcements or preserve the established public reading?",
+    "support_quote_Y": "Should the team publish quickly or delay for careful validation?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e408018",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to enforce a previously applied payment rule or grant extra time because exceptional hardship caused nonpayment.",
+    "support_quote_X": "Should he seek immediate care or finish the promised order?",
+    "support_quote_Y": "Should the association spare her because of the disaster or enforce its rule equally?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e347223",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit fulfilling a vital public duty despite personal physical risk against stopping to protect health and safety.",
+    "support_quote_X": "Should he withdraw to protect his leg or officiate the final he agreed to handle?",
+    "support_quote_Y": "Should the library adopt digital checkout or preserve the handwritten lending tradition?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e266383",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh honoring a commitment serving others against protecting an injured or ill body from worsening harm.",
+    "support_quote_X": "Should he continue or pull over?",
+    "support_quote_Y": "Should the director adopt projections or preserve the traditional sets?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e961947",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast rapid preliminary action with delaying for independent checking that improves reliability but postpones useful results.",
+    "support_quote_X": "Should she remain at the telescope controls?",
+    "support_quote_Y": "Should the department favor rapid reports or double review?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e818481",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both force a choice between protecting limited resources needed for one’s own security or business and helping another person urgently.",
+    "support_quote_X": "Should Mei lend him the money and risk spoiled stock or secure the equipment her business depends on?",
+    "support_quote_Y": "Should Sofia take the fellowship or remain with the hospital community where she belongs?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e970100",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both compare modern replacement systems with preserving inherited rituals and tangible practices that carry communal identity.",
+    "support_quote_X": "Should Alma make an exception for him or apply the same removal rule to every patient?",
+    "support_quote_Y": "Should Pavel modernize the orchestra's practice or continue its inherited musical customs?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e825330",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh completing a quick, usable solution now against delaying for thorough verification and greater reliability.",
+    "support_quote_X": "Should the team announce the approximate path quickly or delay until the calculation is fully checked?",
+    "support_quote_Y": "Should officials open all accessible tunnels to discovery or restrict visitors to the verified, protected route?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e590577",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to disclose intimate personal or family experiences for understanding and coordination, or preserve confidentiality.",
+    "support_quote_X": "Should Marcus complete his training session or spend the evening enjoying the meal?",
+    "support_quote_Y": "Should Elena tell the department or keep the family experience private?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e721871",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both balance safeguarding a limited personal financial reserve against paying for another person’s urgent health-related need.",
+    "support_quote_X": "Should Sofia present her preferred work or choose the paintings that secure their approval?",
+    "support_quote_Y": "Should the nurse preserve her financial cushion or help her neighbor hear essential instructions?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e117285",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast allowing open-ended exploration with uncertain consequences against directing users toward a controlled, predictable alternative.",
+    "support_quote_X": "Should he report what happened or protect his friend from the consequences?",
+    "support_quote_Y": "Should officials permit free exploration or direct everyone along the protected route?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e406118",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh pursuing personally meaningful work against conforming to family or professional expectations and retaining their approval.",
+    "support_quote_X": "Should he use the money for her flight?",
+    "support_quote_Y": "Should she request the transfer?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e897599",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit protecting one’s recovery from illness against fulfilling a critical scheduled duty whose absence harms a larger team or public.",
+    "support_quote_X": "Which research path should Noor choose?",
+    "support_quote_Y": "Should he report for the shift?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e563179",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast delivering a usable result quickly with delaying for more thorough checking, precision, and dependable quality.",
+    "support_quote_X": "Should Yuki provide the early usable results or wait until the analysis is thoroughly verified?",
+    "support_quote_Y": "Should Felix disclose the substitution or remain silent to protect the person who built the bakery with him?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e245586",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh direct personal financial reward against environmental waste and diffuse public costs affecting communities beyond the decision-maker.",
+    "support_quote_X": "Should Mira implement the profitable feature or reject its diffuse energy cost?",
+    "support_quote_Y": "Should the pharmacy release the leaflet immediately or wait until specialists have verified every direction?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e624782",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit disciplined study for future advancement against immediate leisure and relaxing social activities available now.",
+    "support_quote_X": "Should she complete the planned nightly reading or enjoy the easy social hours available now?",
+    "support_quote_Y": "Should the instructor allow open exploration or require the predictable protected route?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e876711",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue an intrinsically preferred path despite close others’ expectations, or choose the approved option to retain support.",
+    "support_quote_X": "Should Vera adopt the dashboard or preserve the cooperative's established meeting custom?",
+    "support_quote_Y": "Should Noah enroll in the subject that interests him or choose economics to satisfy the people close to him?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e989337",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance meeting an immediate deadline with an adequate but less durable result against delaying for safer, longer-lasting quality.",
+    "support_quote_X": "Should she ship immediately or complete the sorting?",
+    "support_quote_Y": "Should Anton follow the training plan?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e759795",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh private profit from resource-intensive activity against broader environmental costs distributed across households and communities.",
+    "support_quote_X": "Should she pursue the higher private return or choose a less profitable crop with a smaller collective burden?",
+    "support_quote_Y": "Should he protect his recovery on the ground or fulfill the flight duty?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e479745",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast a major career opportunity requiring extended absence with preserving close family relationships and regular personal support.",
+    "support_quote_X": "Which research voyage should she fund?",
+    "support_quote_Y": "Should Daniel join the tour?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e470271",
+    "choice": "Y",
+    "confidence": "medium",
+    "explanation": "Both weigh personal economic gain from a chosen opportunity against broad community or environmental costs imposed on others.",
+    "support_quote_X": "Should Rina pursue the unpredictable field expedition or choose the secure research project with reliable outcomes?",
+    "support_quote_Y": "Should Dean select the card for his private reward or use the cheaper option for the public budget?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e873827",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both compare modern digital replacement with preserving a manual tradition valued as part of civic or community identity.",
+    "support_quote_X": "Should Greg accept the private benefit and approve the fleet or reject it to limit the community-wide cost?",
+    "support_quote_Y": "Should the club modernize the scoreboard or preserve the manual ritual?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e986961",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast issuing materials quickly despite unresolved defects with delaying for careful checks and a dependable final product.",
+    "support_quote_X": "Should she accept the advancement or preserve her close everyday relationships?",
+    "support_quote_Y": "Should the principal issue it now or wait for a dependable edition?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e716892",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit truthful reporting of wrongdoing against protecting a close relationship from professional and personal consequences.",
+    "support_quote_X": "Should the mayor disclose her diagnosis to the team?",
+    "support_quote_Y": "Should she tell the partners exactly what happened?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e892350",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast disciplined effort toward future success with immediate rest, comfort, and pleasurable leisure instead.",
+    "support_quote_X": "Should she continue the nightly analysis or choose quieter, easier evenings?",
+    "support_quote_Y": "Should she pursue national growth or remain rooted among the people close to her?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e269359",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally meaningful work or conform to family and peers’ expectations to preserve their approval.",
+    "support_quote_X": "Should Felix continue the work he values or meet their career expectations?",
+    "support_quote_Y": "Should the board waive Ana’s penalty out of mercy or apply the established rule equally?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e385608",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh revealing sensitive personal circumstances to improve trust and coordination against preserving privacy for oneself or family.",
+    "support_quote_X": "Should he use the profitable plastic or accept lower earnings to reduce the widespread environmental damage?",
+    "support_quote_Y": "Should she explain the absences openly or keep her brother's circumstances private?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e684845",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast an uncertain, changing opportunity with a protected position offering fixed conditions, security, and predictable continuity.",
+    "support_quote_X": "Should she protect her joints or deliver the workshop despite the flare?",
+    "support_quote_Y": "Should he accept the unpredictable collaboration or remain in the secure orchestral seat?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e257479",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit personally preferred choices against conforming to close others’ expectations to retain acceptance, confidence, and opportunity.",
+    "support_quote_X": "Should the coach protect his recovery or attend and fulfill his responsibility to the team?",
+    "support_quote_Y": "Should she build the business she personally imagines or follow her relatives' plan to secure their confidence and approval?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e269940",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to disclose sensitive personal information for practical understanding and trust, or protect intimate privacy.",
+    "support_quote_X": "Should she explain the treatment at the next staff meeting?",
+    "support_quote_Y": "Should Jonah accept the promotion?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e104500",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh disclosure of a sensitive health or status condition for safety and cooperation against fear of stigma and lost privacy.",
+    "support_quote_X": "Should she tell the committee?",
+    "support_quote_Y": "Which opportunity should she choose?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e126119",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit fulfilling an accepted professional responsibility essential to others against following medical advice and protecting personal health.",
+    "support_quote_X": "Should she step away to recover or remain available for the responsibility she accepted?",
+    "support_quote_Y": "Should Caleb pursue the promotion or keep those relationships woven into his routine?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  },
+  {
+    "id": "e793029",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain exploration with a controlled, predictable alternative whose conditions and outcomes are easier to forecast.",
+    "support_quote_X": "Should Omar report the dosing error or shield his friend from professional harm?",
+    "support_quote_Y": "Should Keisha enter the open-route trail event or choose the controlled road race?",
+    "alignment_changed": false,
+    "alignment_unresolved": false
+  }
+]

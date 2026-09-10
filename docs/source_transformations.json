@@ -1,0 +1,28 @@
+{
+  "original_artifacts": 194,
+  "byte_identical_artifacts": 191,
+  "redacted_artifacts": [
+    {
+      "path": "study/original/reports/numeric_audit.json",
+      "original_sha256": "73d307a29a3203ced7536ff7a6e70dfe9df342b994adf378d903d74c643691d8",
+      "public_sha256": "ed4aeffd83866094f4731e3a3e367d385d50f397d32a6cb5abc543e0030b5b9e",
+      "change": "Replace the local absolute study directory with study/original; numeric content unchanged."
+    },
+    {
+      "path": "study/original/reports/numeric_audit.md",
+      "original_sha256": "e2d663ba17ad119832462f649367a0afd9da0c2d7a16bb632107be0267456d83",
+      "public_sha256": "33f01bd8a8fe54e37f9d38c86e007ef417e326d735c5efec710e547b6772a099",
+      "change": "Replace the local absolute study directory with study/original; numeric content unchanged."
+    },
+    {
+      "path": "study/original/09_english_240_triplets.ipynb",
+      "original_sha256": "3f583eb56c0dd32b9af397fd83ed1bc994ef4b79bacaf7c9ff7e9561b5fd4f23",
+      "public_sha256": "ab0736fb7d7422514ee81292daea328f8749b23706eedc554fc55bb21a08d0a0",
+      "change": "Replace local environment path in saved dependency warning; code cells and research outputs unchanged."
+    }
+  ],
+  "frozen_inputs_unchanged": 32,
+  "design_hashes_unchanged": 8,
+  "public_verification_manifest": "study/original/verification.json",
+  "original_verification_manifest": "study/source-verification.json"
+}

@@ -1,0 +1,4 @@
+method,n_triplets,correct_score,accuracy,mean_margin,n_conflicts,n_topics,interpretable
+concept207,140,85,0.607142857143,0.0602814241576,12,10,True
+embedding,140,65,0.464285714286,-0.0161039105427,12,10,True
+hybrid50,140,79,0.564285714286,0.0220887568075,12,10,True

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Attribute Projections for Conflict Similarity in Text Embeddings"
+message: "If you use this repository, please cite it."
+type: software
+authors:
+  - family-names: sarrumkin
+    affiliation: "Independent research"
+version: 1.0.0
+date-released: "2026-09-10"
+license: MIT
+repository-code: "https://github.com/sarrumkin/concept-projection-dilemmas"
+url: "https://github.com/sarrumkin/concept-projection-dilemmas"
+abstract: "A reproducible synthetic study of fixed attribute projections for conflict-sensitive similarity in text embeddings."

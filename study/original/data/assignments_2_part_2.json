@@ -1,0 +1,110 @@
+[
+  {
+    "id": "e478381",
+    "conflict": "truth_vs_loyalty",
+    "anchor_topic": "small_business",
+    "positive_topic": "community_projects",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 1,
+    "author": 2
+  },
+  {
+    "id": "e668841",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "science",
+    "positive_topic": "sport",
+    "negative_conflict": "fairness_vs_mercy",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e358760",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "sport",
+    "positive_topic": "agriculture",
+    "negative_conflict": "security_vs_care",
+    "variant": 1,
+    "author": 2
+  },
+  {
+    "id": "e280448",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "healthcare",
+    "positive_topic": "public_services",
+    "negative_conflict": "truth_vs_loyalty",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e449534",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "public_services",
+    "positive_topic": "software",
+    "negative_conflict": "quality_vs_speed",
+    "variant": 1,
+    "author": 2
+  },
+  {
+    "id": "e782824",
+    "conflict": "discipline_vs_comfort",
+    "anchor_topic": "community_projects",
+    "positive_topic": "science",
+    "negative_conflict": "security_vs_care",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e876711",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "software",
+    "positive_topic": "education",
+    "negative_conflict": "change_vs_tradition",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e671472",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "arts",
+    "positive_topic": "public_services",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 1,
+    "author": 2
+  },
+  {
+    "id": "e838439",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "education",
+    "positive_topic": "small_business",
+    "negative_conflict": "freedom_vs_safety",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e853899",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "agriculture",
+    "positive_topic": "science",
+    "negative_conflict": "privacy_vs_openness",
+    "variant": 1,
+    "author": 2
+  },
+  {
+    "id": "e377040",
+    "conflict": "autonomy_vs_approval",
+    "anchor_topic": "small_business",
+    "positive_topic": "arts",
+    "negative_conflict": "ambition_vs_belonging",
+    "variant": 0,
+    "author": 2
+  },
+  {
+    "id": "e948707",
+    "conflict": "change_vs_tradition",
+    "anchor_topic": "science",
+    "positive_topic": "small_business",
+    "negative_conflict": "personal_gain_vs_collective_impact",
+    "variant": 1,
+    "author": 2
+  }
+]

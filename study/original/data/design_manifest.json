@@ -1,0 +1,14 @@
+{
+  "fixed_at_utc": "2026-09-09T14:08:58.700819+00:00",
+  "stage": "before_authored_texts_and_new_scores",
+  "sha256": {
+    "PROTOCOL.md": "931c4fc1aeb5d975f9fa8966c03ca86e402bd996c4e087fd4a767e2231bb1619",
+    "data/label_definitions.json": "f1f6e5f5d8e540172be67c3bc1dfe953af463109faadd2c8cb82fced7a13e416",
+    "data/domains.json": "732bd95a4d9547709226de1466dbd0fd21f03150adb7f4722b793736869c746d",
+    "data/assignments.json": "9992187952f4171431b9eea64bdac64d5114087419f46d29b1aa5e8ffe09d3ea",
+    "data/assignments_0.json": "567d51378427ffa7ccda77bdc137de30a153c81a3af5083cf733e5c83172dadd",
+    "data/assignments_1.json": "159a5f48935cff4b5b13692a6c97bca728e4dedf6f6b191275b3f8e34d94cb61",
+    "data/assignments_2.json": "13ad2a0c7685c2645ff2c3cb92fd0dc2beb44bf649bdc943fbdb7b30e5aebfa8",
+    "data/assignments_3.json": "c2b7b334f9ecc52354f7b7ea730f5bff08544d4731aad9f985a032d76fdd4499"
+  }
+}

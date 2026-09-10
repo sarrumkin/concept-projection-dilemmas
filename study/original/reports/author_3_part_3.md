@@ -1,0 +1,1 @@
+This report records AI-authored text for author 3, part 3. The output contains all 12 assigned triplets and was checked for unchanged assignment fields, 36 unique English paragraphs, 40–70 words per paragraph, and question endings.

@@ -1,0 +1,1 @@
+This file records AI-authored text for author 3, part 0. The output contains 12 assigned triplets and was checked for unchanged IDs, 36 unique English paragraphs, 40–70 words per paragraph, and question endings.

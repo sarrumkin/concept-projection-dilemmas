@@ -1,0 +1,4 @@
+method,baseline,improved_triplets,worsened_triplets,unchanged_triplets
+hybrid50,embedding,36,14,190
+concept207,embedding,55,21,164
+hybrid50,concept207,7,19,214

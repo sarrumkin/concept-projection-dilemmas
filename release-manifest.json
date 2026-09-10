@@ -1,0 +1,1389 @@
+{
+  "release": "1.0.0",
+  "title": "Attribute Projections for Conflict Similarity in Text Embeddings",
+  "repository": "https://github.com/sarrumkin/concept-projection-dilemmas",
+  "primary_comparison": "Concept207 versus Embedding",
+  "secondary_comparison": "Hybrid50 versus Embedding",
+  "source_artifacts": 194,
+  "byte_identical_source_artifacts": 191,
+  "frozen_inputs_unchanged": 32,
+  "design_hashes_unchanged": 8,
+  "excluded_categories": [
+    "model weights and runtime caches",
+    "application code and user state",
+    "article and thesis PDFs",
+    "subsequent experiments",
+    "credentials and local environment paths"
+  ],
+  "self_hash_note": "This manifest is the sole allowlisted file without an embedded self-hash. Git commits identify the complete release.",
+  "files": {
+    ".gitattributes": {
+      "sha256": "851b933269b6a5a6a2639294a5902d9f0c82cdcfa32cd8e3a844ae376c0fbe5c",
+      "bytes": 93,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    ".github/workflows/reproduce.yml": {
+      "sha256": "33d51c8b1b2bbe61343ef69733cd898dca53b062312b445457ce5a4a1f073544",
+      "bytes": 1478,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    ".gitignore": {
+      "sha256": "29dd66cb6a50b1dd4bfc1804e989fcdd6c8d5ab92fb021d41ec87b20978324ea",
+      "bytes": 105,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "CITATION.cff": {
+      "sha256": "1fe42f1198293adece34d0557e7de52215f8c735f034f02f89fe6e9dbb484824",
+      "bytes": 564,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "LICENSE": {
+      "sha256": "5be1c3257bc112d9224d3d48084473a8903c9bfd50c1d7a16535f9cc22af9d80",
+      "bytes": 1066,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "NOTICE": {
+      "sha256": "81ef4b05c102d848c41810f6e670afde4fa89a5cceadea089f046cffeff15aac",
+      "bytes": 2000,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "README.md": {
+      "sha256": "e92e4fc16f7b2c7ffbead37e5cdbce98d37bb835f5878e62e2f4c94ecd4215fc",
+      "bytes": 8086,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "data/bhatia/attributes.csv": {
+      "sha256": "7491faea757869d926553c111f740555e5e1ac52abcb955a13315d53fb93f945",
+      "bytes": 102770,
+      "origin": "unmodified Bhatia OSF attribute file; upstream MIT notice in NOTICE",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/data.md": {
+      "sha256": "204d2fb1a176603bda27bb112f80b1cc5d1ee8db8fcaa3c9bd19d5dfa50199a6",
+      "bytes": 1836,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/example_review.json": {
+      "sha256": "7d2cf8ec4b6cca74ee8b96826f4b8ee6631ccdbc2c1ec784bff0effde5557d6b",
+      "bytes": 3543,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/accuracy.png": {
+      "sha256": "04adc12f882c525e85b28e5e84fe517c1c7a54135c56a1ed032dff88a7d4c2e1",
+      "bytes": 47721,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/accuracy.svg": {
+      "sha256": "40fe894d7d40f34cbe877a38b6c727bfd4036735eda4d097e5672052a136ef3c",
+      "bytes": 8802,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/effects.png": {
+      "sha256": "cb2686195f10b297075aa1a261f63fd2c086ea306477e1ab684cb0e2481986fe",
+      "bytes": 53278,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/effects.svg": {
+      "sha256": "5bf5b0aaeb238b04da10d7061095de6ef830e375152764d281eddbbcbcba99e7",
+      "bytes": 12106,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/random_controls.png": {
+      "sha256": "679618cbe7b0bc87b35d1781eb485e314e6264b737b2e513e6b42ec61e3b943b",
+      "bytes": 94432,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/figures/random_controls.svg": {
+      "sha256": "58cc8a7d17a5c289e4c65b9ad5adfc95c80862e64d6da2c61b930d1b7989fead",
+      "bytes": 35529,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/methods.md": {
+      "sha256": "d338a5ccb4c1e86c139fd00642593cfc1a7d8b63230f94b2a52a654526484d0a",
+      "bytes": 3545,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/reproduction.md": {
+      "sha256": "d30f55763829f7001cc9a57427d99ccab955c689d35ed6b35e557afa9c0a2942",
+      "bytes": 4219,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/reproduction_check.json": {
+      "sha256": "100468e36764bd6753b417eba719e48e91cd48c2b3e1b88a185819066c34044f",
+      "bytes": 16623,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/research_branches.md": {
+      "sha256": "cf2da2e52d6093d233c3bde355b63f7fc4ba845fe6de3904ea44e93a225a3019",
+      "bytes": 2053,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/source_audit.md": {
+      "sha256": "0a182d32a5299981eb8de2b2338626d40cd04008127d1c8fe0572ed8cb27d704",
+      "bytes": 2522,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/source_transformations.json": {
+      "sha256": "863b277a11ce8abbedf9085ad99449ff712fde329fdad176a06ab5f9c313c357",
+      "bytes": 1410,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "notebooks/research.ipynb": {
+      "sha256": "bdc52bd701d6cbe019e1f5aae1b0db7c6307ee22b3aa14fb4975a4e883d993a5",
+      "bytes": 296347,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "release-allowlist.txt": {
+      "sha256": "d5f7f0a2a14530e0d9003e1c8bed237d4f4725a2107da72e7f1eeb3f944c161a",
+      "bytes": 9597,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "reproduce.py": {
+      "sha256": "bd570df2de32d8e5168a248dce32afb2d9985f4a63c0e2bd8d068f06dece6391",
+      "bytes": 12655,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "requirements-dev.txt": {
+      "sha256": "ebc319f05921f7d8d196fb93e7e47ffabc2cdda3dbd7e261d76a8fbc5ea099c8",
+      "bytes": 34,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "requirements-full.txt": {
+      "sha256": "1311a4c56b41f7164e35ed7ebfe83282498b5b798534f4af49dae0e38eebba22",
+      "bytes": 103,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "requirements.txt": {
+      "sha256": "c681ad169fae49698504da5ab5c23cdb6afe0cf681d584e251d7021f706f0ecf",
+      "bytes": 154,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "scripts/build_notebook.py": {
+      "sha256": "9cc8348ab5270467791e2879443bdf2f2e62cae558e2f920a7743de594b2aae3",
+      "bytes": 12087,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "scripts/make_figures.py": {
+      "sha256": "5a3366c5badf807b6d020f5a48ab1e916b958b06a2d72359a825486a48154bac",
+      "bytes": 5059,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "scripts/verify_release.py": {
+      "sha256": "30d8cdd8e3ece679260fcefddd793e10f2ad34408dd848cf8242d19b36649976",
+      "bytes": 2567,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/09_english_240_triplets.ipynb": {
+      "sha256": "ab0736fb7d7422514ee81292daea328f8749b23706eedc554fc55bb21a08d0a0",
+      "bytes": 232961,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/PRE_SCORE_AMENDMENT.md": {
+      "sha256": "bbc5c92a6f0a2f59a8803db99ae369ae3cf7490a1c16ac24eb911b99bca5cea1",
+      "bytes": 2000,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/PRE_SCORE_AUDIT_REPAIR.md": {
+      "sha256": "1363fa49f549cf14d72a293efbcba67812414956d5679ebe5b43e4321995ed2a",
+      "bytes": 6167,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/PROTOCOL.md": {
+      "sha256": "931c4fc1aeb5d975f9fa8966c03ca86e402bd996c4e087fd4a767e2231bb1619",
+      "bytes": 13543,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/README.md": {
+      "sha256": "5c200646f2749a5893b5535faab1d29c4f763627ec77a4ab55029656baa88a8b",
+      "bytes": 5551,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/abstract_en.md": {
+      "sha256": "8c1d4921fca5b3d216d8d82c376a195566991968856d2fab8d9b973e7edecada",
+      "bytes": 2110,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/build_notebook.py": {
+      "sha256": "607a96c5acf220f6b7dc539f7e9304dd9ae14486d3cb525fbe2a64e6bb62ae1b",
+      "bytes": 11340,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/check_metrics.py": {
+      "sha256": "7999ad60ac617d8bde47af107a61f5b9704fb089c3598b89289c63168f1f55a1",
+      "bytes": 1603,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/anchors_multi.npz": {
+      "sha256": "667980697e4227a697bfeabb919e0044ddedf99a6cdad76ca63dca2f1108209b",
+      "bytes": 612815,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments.json": {
+      "sha256": "9992187952f4171431b9eea64bdac64d5114087419f46d29b1aa5e8ffe09d3ea",
+      "bytes": 53171,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0.json": {
+      "sha256": "567d51378427ffa7ccda77bdc137de30a153c81a3af5083cf733e5c83172dadd",
+      "bytes": 13291,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0_part_0.json": {
+      "sha256": "7f6691d69a33edb1a54e0a703dab704c68cbfba06e51c15c2933b746419ff4d7",
+      "bytes": 2637,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0_part_1.json": {
+      "sha256": "a9269ae970725e464bca18c25cd77fbd21b94b84e5dc5ea39cf71a0a17372358",
+      "bytes": 2631,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0_part_2.json": {
+      "sha256": "19e4a5c88cb739121f80496f2eb3cd45d0db939d506f2a1e4009fed6e7dee6ba",
+      "bytes": 2683,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0_part_3.json": {
+      "sha256": "c09fa4f171c0eff74db8396286d06ebc52643ce85ff2729a69e983425cac5dc7",
+      "bytes": 2627,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_0_part_4.json": {
+      "sha256": "4091b9457c2101e9d37c8250aee3d9fcd0ea1f0aa785b6e9bfcd9a8abeabb709",
+      "bytes": 2725,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1.json": {
+      "sha256": "159a5f48935cff4b5b13692a6c97bca728e4dedf6f6b191275b3f8e34d94cb61",
+      "bytes": 13322,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1_part_0.json": {
+      "sha256": "b27ca63ff4c689aeed4d5ee54f5366c68fe466e4473c3991a83cea193e220b7c",
+      "bytes": 2640,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1_part_1.json": {
+      "sha256": "a9845c8bd58bbde003e40867b35c6cb4e1b328aad8bd515a043af7c153918de1",
+      "bytes": 2627,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1_part_2.json": {
+      "sha256": "079b279d6ae1b5b8b92126425feb07c94cf8c3b48a74a227016cb41c1022bb4b",
+      "bytes": 2699,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1_part_3.json": {
+      "sha256": "a8b86b04cc40bb950b980eb7c738d0aab94f9693a821ac90052f7b60f5fb6a64",
+      "bytes": 2634,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_1_part_4.json": {
+      "sha256": "78ff0a8c4986ebe6f275de4ce2c45d8a8429a9de302a1eed7b453d7e093dd255",
+      "bytes": 2734,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2.json": {
+      "sha256": "13ad2a0c7685c2645ff2c3cb92fd0dc2beb44bf649bdc943fbdb7b30e5aebfa8",
+      "bytes": 13286,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2_part_0.json": {
+      "sha256": "5f0621cc094959e1a01901c0e08b3a9965b1f156242ecf198f3fd0a53d343574",
+      "bytes": 2614,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2_part_1.json": {
+      "sha256": "cf9645f0aceed94a380434ea2ec2ed0f3f9d7b32171f9f22bb5f7790e6307a69",
+      "bytes": 2623,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2_part_2.json": {
+      "sha256": "5e22d5cf560ac9f685721fa7711e204b85f7281294a15292d6d2a8ecc2c73fe9",
+      "bytes": 2694,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2_part_3.json": {
+      "sha256": "5bcd921d43572bc2646dbb1a4eb408ed1b9aa607da92dbb76b431f2214b7a825",
+      "bytes": 2636,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_2_part_4.json": {
+      "sha256": "c45c756c5e83f011ad482de58437efd0bcfac180a6f74cbe049d5cb480e5e615",
+      "bytes": 2731,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3.json": {
+      "sha256": "c2b7b334f9ecc52354f7b7ea730f5bff08544d4731aad9f985a032d76fdd4499",
+      "bytes": 13281,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3_part_0.json": {
+      "sha256": "4c5f91008930b38e7fca7dc00c0f3606f651da3b5d2e0c5e304716337d23ec0e",
+      "bytes": 2647,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3_part_1.json": {
+      "sha256": "875d0d62ed70a8d7ef974639988445312942eec3a5d22ed22ed7f0abbd8006a5",
+      "bytes": 2612,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3_part_2.json": {
+      "sha256": "7d2f3be8a5e8ed8f3b9f4b1dac20cc2ee7afded0b20cb860a2d5ec0c73a72fc6",
+      "bytes": 2673,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3_part_3.json": {
+      "sha256": "ef643fa1c5071f27dff8721bfca99870762a93aa40998293c963d97e63954008",
+      "bytes": 2629,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/assignments_3_part_4.json": {
+      "sha256": "edfddd3e873c316b6692a6e6b9154628143909d83182099cb41fc4c5e0c17ff8",
+      "bytes": 2732,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1.json": {
+      "sha256": "694192909890a8dbbeed57f96615d2acc42616a028ab9930a0f442089f5c5d14",
+      "bytes": 130536,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_0.json": {
+      "sha256": "872b495d698dc283251ef843a26ef89b8d6b89833188c190ebbd8dab9b87547c",
+      "bytes": 21908,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_1.json": {
+      "sha256": "954d28ea60ed11ece48584aecb4d133e190225e678b23f117a74c1666298b558",
+      "bytes": 21987,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_2.json": {
+      "sha256": "e29ed0dc4e296c34745467649301a57fa22cd412429583d1220d053523e520b5",
+      "bytes": 21911,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_3.json": {
+      "sha256": "5198d95fece59a0b4dfe1ddee1aa01597033908b492875196ee55389a6a9a45c",
+      "bytes": 21706,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_4.json": {
+      "sha256": "d1a35c020642aa704c7b3431dabc510c8dc4da15a61d7f7678d65d82061c41fb",
+      "bytes": 21425,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_1_part_5.json": {
+      "sha256": "fd3ad6cee3c8602bfd53984eed6e81819b9e4e3da5f37cc379e4be2ee3f5f258",
+      "bytes": 21614,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2.json": {
+      "sha256": "4cc9b4c02e48a04360e41332ec7dd1441587f557951200f3904a56044c4cb837",
+      "bytes": 120573,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_0.json": {
+      "sha256": "bf37440ed0977a5984838317d098af70e200c04e34f49c8585efb1cfd4b99308",
+      "bytes": 20491,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_1.json": {
+      "sha256": "a2ebd0cb95001d29ed703f2480c6dae85b006e4e1d1da594514836d17529a830",
+      "bytes": 20073,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_2.json": {
+      "sha256": "6b6b837b4e0798e6e12cd063c03b5df458349b203aa2ab6edd69369cb85f9707",
+      "bytes": 19672,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_3.json": {
+      "sha256": "b5b0161cafc14569b5474518236cc862385def938efc3844adba397c8a3f0cfb",
+      "bytes": 20050,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_4.json": {
+      "sha256": "343867920da630cbb41dfdd33e1c38994c433321111a8053fd669c58d6ca2ee2",
+      "bytes": 20322,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_alignment_attempt/audit_labels_2_part_5.json": {
+      "sha256": "6731b63b305e655dc2c647cdce5c9089fe1e476269be75a1f12af64f0ee4048f",
+      "bytes": 19980,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1.json": {
+      "sha256": "48987b91b2db47e7dbf6f4768279be49119a1921214377e439a815db569068b3",
+      "bytes": 55077,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_0.json": {
+      "sha256": "8539ad0b5812500d0d2aa4c52dad1e84ba8ed60bcedd48bed68f68fb65298d8f",
+      "bytes": 8196,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_1.json": {
+      "sha256": "22f832ffa226e7e4bd4ea9f0535091e6d3015fb0aa0dfd6e529c27b94d119918",
+      "bytes": 8202,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_2.json": {
+      "sha256": "080c7c8505472c3b30960839a30f0d42f2b1fdd738b4aeae8afd8e145d875f04",
+      "bytes": 8149,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_3.json": {
+      "sha256": "980e9052af20b8d8bdaa69755854d229506dcbc0c6a06b3dabf9b24ae85c91e5",
+      "bytes": 7888,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_4.json": {
+      "sha256": "ada36b0b9b11e759ca43b974133fd68983b33b086f1f92d21b8c9e879c3dee89",
+      "bytes": 7791,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_1_part_5.json": {
+      "sha256": "b4381627f9f25678751b1d4acf072eff81ae44147fe4d2380a33f2bdf9221097",
+      "bytes": 7906,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2.json": {
+      "sha256": "31656c68205924e69167ab169aac886194dbad70cf006474498df57b1d228ef3",
+      "bytes": 54645,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_0.json": {
+      "sha256": "3d055bfa4c307aca4d1901ba02f281c26ab7007908117f718f92b64226de3e6a",
+      "bytes": 8307,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_1.json": {
+      "sha256": "e213281e7c3da71c5cd5290c8d125d16f532d49d699760c09c5d8b7a7a1ebcec",
+      "bytes": 8041,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_2.json": {
+      "sha256": "cdc69674812c736d4286238eeeb1c9bbed13a9f04987f787cff7fc983dce7642",
+      "bytes": 7972,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_3.json": {
+      "sha256": "7d2056b1b76311c278b3e1264c4372e22fb149463d0a54f9ef104e440ac8181a",
+      "bytes": 7964,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_4.json": {
+      "sha256": "c3e3185fd4947aeaa01e40159b5c4f560ecc287ea64cfbe8db0956e9aee94357",
+      "bytes": 7971,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_initial/audit_labels_2_part_5.json": {
+      "sha256": "b66f4cccaa065f38d7e174ecdaf8020edd138e4c9fb7784d88b67d8b6561b3fd",
+      "bytes": 7925,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1.json": {
+      "sha256": "2342458c63f98764eae6bef6827d0971129d12d75307c596a691a248e8e96a5d",
+      "bytes": 265839,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_0.json": {
+      "sha256": "829fcd7e79d5a09f5d4e597ab7062547812a475c7fcc6a76c911d4fab939e916",
+      "bytes": 44171,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_1.json": {
+      "sha256": "1efcd74054f96766130edc9c8257542759604bb1d17af8848014c01571d6d397",
+      "bytes": 44359,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_2.json": {
+      "sha256": "bcd39f962768af5dc7ac66138cead0d30534b2e3d6759ef01f1c2990d0454b53",
+      "bytes": 43920,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_3.json": {
+      "sha256": "3fb0467e2229a3013fa104ec0fd41a32a11b02f8a33d5e398d9d6e5c464d44a2",
+      "bytes": 44304,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_4.json": {
+      "sha256": "c9ac94d4fbc6efc1db35c047239f142f47e3a46f9d7a30779467ce24d46a1274",
+      "bytes": 44914,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_1_part_5.json": {
+      "sha256": "8be881d0214209b88dff6599212f92d738f04c000d541bd3c83cf32602b142a8",
+      "bytes": 44186,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2.json": {
+      "sha256": "87b161c1cf3d373d04bc616528fbb3b68a6ce87013f13a849ca6b6588b3617b3",
+      "bytes": 265839,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_0.json": {
+      "sha256": "f57b1b46996341ac7f5c1d147e6f5b676e1e945ccf49b6e7b71061be79405a05",
+      "bytes": 44344,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_1.json": {
+      "sha256": "ae6a1e521cd92f8f694ef4f20a5ea565e13de330069e60156d60243429bba26a",
+      "bytes": 44060,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_2.json": {
+      "sha256": "87519b724315d6e1598ceb1c7cecd146e092b3272a606bac59a52e573f0c2f91",
+      "bytes": 44374,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_3.json": {
+      "sha256": "bd2dc8cd898e1383735967ee5d17092294d5c710d7adaaba6e16ecf61df04946",
+      "bytes": 44373,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_4.json": {
+      "sha256": "eddbe04ab2474f5a37163657e0e975d548477d21c4c088f2e34fed88dc50097e",
+      "bytes": 44548,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_input_2_part_5.json": {
+      "sha256": "cf6136fe876dad704743f93c2904058259c3efb4f6ff0d4def3fb81f74bc3f5c",
+      "bytes": 44155,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_key_1.json": {
+      "sha256": "e4a3c1746b104003b8cf6947780e745ba0a059a2d80d80e58f6ad772f96188ef",
+      "bytes": 4323,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_key_2.json": {
+      "sha256": "6cdc0f8a5936d0bf0871ca59c0dffac2919d9b9d2e4154a91dca75135f2d9dc8",
+      "bytes": 4323,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1.json": {
+      "sha256": "1eadd6b1fc7f357165f27059f9389f86013be2b5b77808c536cb6a7795950a79",
+      "bytes": 128840,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_0.json": {
+      "sha256": "9ac772b5343255d71afd8074eb66e9f4f29859de2f2a8463c34581d52df6f6f6",
+      "bytes": 21194,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_1.json": {
+      "sha256": "be840e20ccde5a38de566d3e7585eb1ccae1c2d72479ddf11db94f09d1c23d5e",
+      "bytes": 20803,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_2.json": {
+      "sha256": "3930d34dbe7d05371154a0e347958da3d0f79d419f99466e2c596ac723aec661",
+      "bytes": 21424,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_3.json": {
+      "sha256": "9c428aec1497483a3441538997163b7c72149d10d1e45195dec5f0e680d1158b",
+      "bytes": 21290,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_4.json": {
+      "sha256": "39679dba101e8f0c7049b2a68818fc964a522b86cc42e7380938bcb0f089d5e3",
+      "bytes": 22313,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_1_part_5.json": {
+      "sha256": "91506939d88d1ebf9beae9bc4e23c3401381a89aae25f75713e8f737b3a04873",
+      "bytes": 21831,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2.json": {
+      "sha256": "e0caa689a82ef26038736e4c60210766e375cf4f05037854675072c8f1c55768",
+      "bytes": 105219,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_0.json": {
+      "sha256": "02ed19c83afd060d3db714e483ead3b218ce09fb4e9d89450e51a3c1e1cee3cb",
+      "bytes": 18433,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_1.json": {
+      "sha256": "1d098430de57ba91c04dedec5951ed38f0d0ee079dcc15097bcf4af40aca64d1",
+      "bytes": 17698,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_2.json": {
+      "sha256": "c461441791bb8f6e35aaa486d7d21f7e00c3e541c2e716cf9c2070048004255a",
+      "bytes": 17135,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_3.json": {
+      "sha256": "fa842e19430fa3f34d7d243b9f02b0060a574d18380d19fcc794014cf0698d26",
+      "bytes": 17351,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_4.json": {
+      "sha256": "d0c929f554e700f184162c791bec0fc3b679f235ac7900f42615e0552a3555cf",
+      "bytes": 17614,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/audit_labels_2_part_5.json": {
+      "sha256": "a03bbf47232aba1bcdf3b90816be1348fe2a12e3a480bc306c639c2a8e434e08",
+      "bytes": 17003,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0.json": {
+      "sha256": "6a0ee6f7aca5775e3d69fe0aa078d92245896fdbd3e45683ca2f5229615cf7fd",
+      "bytes": 78097,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0_part_0.json": {
+      "sha256": "810af8eef3ff16978610f6acac9b9a0941a7f962ac51a1d29187852e766a393e",
+      "bytes": 15715,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0_part_1.json": {
+      "sha256": "7da66f79f25527ce169fa96290ab13719a825e59182e5f22c717edf3d64e60d6",
+      "bytes": 15820,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0_part_2.json": {
+      "sha256": "e76db92a8db52bb68bcb284de1c56f43a968ae41a68882cc69c284928b71325c",
+      "bytes": 15585,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0_part_3.json": {
+      "sha256": "fb6b873389deef2a84dea31cd1a61d4f2b8972b3ceb9f7774a8eb91f7a35256c",
+      "bytes": 15280,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_0_part_4.json": {
+      "sha256": "84771d5cfce12ea9293c860aa21b59989ecee42d0ca764458be5c9b40400bfcb",
+      "bytes": 15709,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1.json": {
+      "sha256": "a7088a86ffd0e0d4aa432ff4b3bb63455a2c3c51529068396e34c6c896c243de",
+      "bytes": 73487,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1_part_0.json": {
+      "sha256": "f6c7cb31da2155b288d111f60267411b2bb5ac36d282994ea27160395216d417",
+      "bytes": 15167,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1_part_1.json": {
+      "sha256": "89692d7e1d5adeefc90747ec539a085bcbd7a7c998d87d723fd5cc9604ccd4c6",
+      "bytes": 14930,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1_part_2.json": {
+      "sha256": "34cdbc8c8dbd0eecd995c4def35822b2c1e2906153b3bc7548f7961bf6ee86e7",
+      "bytes": 14512,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1_part_3.json": {
+      "sha256": "3efc696d217d5ffc1b3620c096f22ef78b6a63bfe6266e1e1f089d33b1dabfa6",
+      "bytes": 14724,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_1_part_4.json": {
+      "sha256": "8ab48da0931938b98c1817237fcd58cb3f5c00222ab09811f6abecb4d02cf67c",
+      "bytes": 14166,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2.json": {
+      "sha256": "c561b2296197c82b9646f53facf4f9b2088092455ace85623761f3022a7cf0e7",
+      "bytes": 81594,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2_part_0.json": {
+      "sha256": "c3bf58f2f8138cf47bb4cef436cc4ae2e573fe812975906241c0dede5b44eb0e",
+      "bytes": 16223,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2_part_1.json": {
+      "sha256": "b76040aafe36ce358d54a3f097b72de67d5a679745516b05bdb43716847da349",
+      "bytes": 16280,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2_part_2.json": {
+      "sha256": "020c43ba553af18da7fed7497f52692da22087f1928ee1e2e81b1b28f93ed057",
+      "bytes": 16432,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2_part_3.json": {
+      "sha256": "bccaf8f637b5e26263e3ade66159bf0dc4197cb684c2f6ed886d7850abc10e6c",
+      "bytes": 15873,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_2_part_4.json": {
+      "sha256": "7e3fc9b4215d069b4c6e126f79e3dc963fdb1a3b6ed642bafec7872572410005",
+      "bytes": 16222,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3.json": {
+      "sha256": "9434b2f1d152df3897dd0a68b164c10131fcc47630903f83f4fe65c04b73514c",
+      "bytes": 78878,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3_part_0.json": {
+      "sha256": "586f10e04910aa8d0a7b94ae963e2119503645cbadbc4fa2861812a1e5e717ae",
+      "bytes": 16082,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3_part_1.json": {
+      "sha256": "8db18d8afc8a5aedcd9a041e8688040806b901f99bf0b35abd1480425f630685",
+      "bytes": 15837,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3_part_2.json": {
+      "sha256": "ae3968dd45549019960d12aef085a8ed962b3ee017bb8b5f76f97db672a8e2b2",
+      "bytes": 15555,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3_part_3.json": {
+      "sha256": "d4f7eb854faa40dfd2367fa414991745437ec5b66907feb716b36770d102f02d",
+      "bytes": 15204,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/authored_3_part_4.json": {
+      "sha256": "a163789ac38d92683958823cda3b7cbb630a7d1616f428d4c591797962445792",
+      "bytes": 15348,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/design_manifest.json": {
+      "sha256": "4db1f8baeb7f1ff655e6e00484ad7d1ea3671e8188a55b1e69a6fabf8a1e939f",
+      "bytes": 902,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/domains.json": {
+      "sha256": "732bd95a4d9547709226de1466dbd0fd21f03150adb7f4722b793736869c746d",
+      "bytes": 164,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/frozen_manifest.json": {
+      "sha256": "d98f3d42ac9b050290e7d585d382c267395fb20cd4404a20799604801f851d55",
+      "bytes": 3293,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/label_definitions.json": {
+      "sha256": "f1f6e5f5d8e540172be67c3bc1dfe953af463109faadd2c8cb82fced7a13e416",
+      "bytes": 1876,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/notebook_code_manifest.json": {
+      "sha256": "158664f2bf78efc04eff2a2b154cb23b4632c1aa91d4e49d9d5cf771c62b51b3",
+      "bytes": 536,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/pre_score_audit.json": {
+      "sha256": "c74b3bce0484716020c03dea7e461eed49c717518c3f866af5c76bc554d84319",
+      "bytes": 15415,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/provenance.json": {
+      "sha256": "809cd51b1d37f97ed029a4764a0ecac8076c6acf8cddee9259deac0f974a7975",
+      "bytes": 2701,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/data/triplets.json": {
+      "sha256": "26ab4bbd32ba6771ffdff32f320feb76c89811d4bcffbda2b3a647ca7dd58105",
+      "bytes": 312047,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/execute_notebook.py": {
+      "sha256": "a6eb3f43cc80affa5ee33e396ef759983268c2d042f3039373b7321bfbb86d4d",
+      "bytes": 1889,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/experiment.py": {
+      "sha256": "973fb9698fe5d0c6ecf1f61ac25d4623f8ed6a349a99a5eb03290e05a2ce5034",
+      "bytes": 14463,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/make_corpus.py": {
+      "sha256": "df61f876601190f92b682ed2e6e840aff1b31d89323600c38ce31b23148458bc",
+      "bytes": 5465,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/INDEX.md": {
+      "sha256": "d7f7aed69154d189c336b4fdf5a5a1a57836143454312135805d28fffa984fab",
+      "bytes": 2640,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_1.md": {
+      "sha256": "5603a7d430dc1ce01374ebd30ee5da540982280394a9339d518d0bc319409eb9",
+      "bytes": 1660,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_1_alignment_attempt.md": {
+      "sha256": "1e19c9b61c1fdec67a916fb2d4ab11be8f756a44a6b5ba4bf4e6bb05ea506b4e",
+      "bytes": 1799,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_1_initial.md": {
+      "sha256": "81c08a2cff191e0f4cdc187634c74e1b786634db5a7b9356b8c2ffc59e25092f",
+      "bytes": 1095,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_2.md": {
+      "sha256": "8c7a6eb785a14afa82372de2b9faeb79e100d584242aff4847f5d3be93b1647d",
+      "bytes": 1163,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_2_alignment_attempt.md": {
+      "sha256": "31a3a1337c9f175ff34732ff33f2bf480c4dc68f9d37daf6419b60c052d31ced",
+      "bytes": 2191,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_2_initial.md": {
+      "sha256": "e69a089c5813465d39d8e3bc18ace94720b1421e38e4088f9aeeee46aec1b051",
+      "bytes": 1419,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/audit_disagreements.md": {
+      "sha256": "550507fdfcf6d291bb3956403b0648b490e01a8b5000399f4c5ef37032c42065",
+      "bytes": 24446,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0.md": {
+      "sha256": "63d56577964b448e88a55bb9964d8b64bea1e84e9847ebfd63b1d384bce69d26",
+      "bytes": 1867,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0_part_0.md": {
+      "sha256": "bcc086a74fd13647497e46dc8487c0053d44a2ea494e11d8ed7830be95880df2",
+      "bytes": 266,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0_part_1.md": {
+      "sha256": "ae235bb90a7eaa5b42b78feb9e2709fd74b06d00370123a4924fe53888d115e7",
+      "bytes": 317,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0_part_2.md": {
+      "sha256": "7e5a0285bd5705e48548e89bc009fe90fa7d0b7dbeddfa8625a851269c395ef4",
+      "bytes": 260,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0_part_3.md": {
+      "sha256": "8b159b7d87e651db3d5651c8ce3809a78c94dfef7eca4b4b79921d318755c763",
+      "bytes": 280,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_0_part_4.md": {
+      "sha256": "d6a0e1ecc7285041a89f1b32d97761e9bb4a47d9bbfa2f6b7cc5aeb99fd92012",
+      "bytes": 279,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1.md": {
+      "sha256": "cfe1bf2cc4022c15c995ece9251184ea97cb0d6c4eb2a64e7d8b3d68e258f53a",
+      "bytes": 1867,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1_part_0.md": {
+      "sha256": "e8da422136d9dd146d0eb9fa029fb65a6c54843b9c36211ee3b6e1513fb404d0",
+      "bytes": 213,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1_part_1.md": {
+      "sha256": "2bed249429f8163b23aadd6d21125c24ed27af3a618f910de03dcc43aa19cba3",
+      "bytes": 219,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1_part_2.md": {
+      "sha256": "272cba61e4ad1d2c1feb2d77fa9b6e7475c1c5fa351773ed5f75b5d41ff0ca54",
+      "bytes": 215,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1_part_3.md": {
+      "sha256": "9596d559b7f23116f21f0eee0901e328e520dc6d37e347eb772f3f66000c7f4e",
+      "bytes": 207,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_1_part_4.md": {
+      "sha256": "a345a3e0d7bdb0a3185ba61224679974dc4cef9ea75e3a5d9c2472a43facf153",
+      "bytes": 218,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2.md": {
+      "sha256": "02c28004ee265ff1c775ef6bff698817d371290d3430cd9f66ffb919fb98a142",
+      "bytes": 1867,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2_part_0.md": {
+      "sha256": "0575ee57c7af25b11ed2ebeca87e46e264477b2d36f5a2193d2308736d8ad10f",
+      "bytes": 262,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2_part_1.md": {
+      "sha256": "ecd86538e67cab49f912274a040603632fa57ddaea3c20d52aca2196f1391bfe",
+      "bytes": 311,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2_part_2.md": {
+      "sha256": "bdda12fa069ef25eb2b476b6a8a99fbd0fd8b487cf50af4a73da6b563d03f841",
+      "bytes": 334,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2_part_3.md": {
+      "sha256": "7d785b9c2328c9a965dda0ccc5d4d9c2543ab04083f2e0dabe96cc44215919e8",
+      "bytes": 311,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_2_part_4.md": {
+      "sha256": "841b3bae0a11dfd1fe6f360c0e8a3a8b84fa2f755ce68326d6e1bf67abd5e0c4",
+      "bytes": 317,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3.md": {
+      "sha256": "bc40944503a92b5d19cbdab94b541cf2d58c3ed9245f80d84ea6ae9ac4855015",
+      "bytes": 1867,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3_part_0.md": {
+      "sha256": "3a52dcce616ac1a891a9e5f545d746d6177537f1ee414283689da9d61ef6661f",
+      "bytes": 214,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3_part_1.md": {
+      "sha256": "fc35b002889868b0a32d348055129379bdef811fb7aed0d927cb05abd266513c",
+      "bytes": 234,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3_part_2.md": {
+      "sha256": "29cb0d37343d7222e92d7151e9ab7e5f8474d10733ac3b47bbcd190700cfbd6f",
+      "bytes": 234,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3_part_3.md": {
+      "sha256": "e8ecb98d2967f1361ccbb385b9ebde9dfff5ea41dddb1adebf2bc503f2737fe3",
+      "bytes": 234,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/author_3_part_4.md": {
+      "sha256": "edd9b7bb2d419d48f4c674e9a6a83dbd13fed96ce950da5d7c8c286941da1e8b",
+      "bytes": 234,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/corpus_quality.md": {
+      "sha256": "9fee6e2010ae267d6c139b56f91255d2a9259bd74618a33455e833187c297a83",
+      "bytes": 3141,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/design_review.md": {
+      "sha256": "4f6e81810ccb8fff4a644f1132c6a7ac53b9ba69d7b34a6ca9e3ecb6f4d29185",
+      "bytes": 3124,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/independent_recheck.py": {
+      "sha256": "bcc784f343c5d39c2c942d1a76875ce366d32093e19e471e2619e98c962814c2",
+      "bytes": 24527,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/method_review.md": {
+      "sha256": "b6d037ed7b03db4977b43b3b526de00ac5f7a7ee23eb51d49a585f2b4e135848",
+      "bytes": 4561,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/model_source_audit.md": {
+      "sha256": "2e3ea737026c8fa78857fe5659632fa1cb829ee33ceae38afbd1e224bb685dd9",
+      "bytes": 4010,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/numeric_audit.json": {
+      "sha256": "ed4aeffd83866094f4731e3a3e367d385d50f397d32a6cb5abc543e0030b5b9e",
+      "bytes": 3459,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/numeric_audit.md": {
+      "sha256": "33f01bd8a8fe54e37f9d38c86e007ef417e326d735c5efec710e547b6772a099",
+      "bytes": 696,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/previous_artifacts_check.json": {
+      "sha256": "9827362745521ce9ea8789acbc148bcce68005303125cb5e2b41c3a6606d89f7",
+      "bytes": 665,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/rejected_author_0.md": {
+      "sha256": "a0fc381f335bb2ca9008c744c506a885a9ddaf86814fd14d926f50826c7a7063",
+      "bytes": 1170,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/rejected_author_1.md": {
+      "sha256": "47256b47d636bb6001bbf028e5e995b9567a5779486b8472bfaf2a785eb71baf",
+      "bytes": 1438,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/reports/rejected_author_2.md": {
+      "sha256": "b798b8261f24a9116cb81c96bb208ef85e2f1e0d0bf0e4f62856182f5dd4bc92",
+      "bytes": 1673,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/requirements.txt": {
+      "sha256": "555e32bd8cc792790dd3364a58770c5457a4406cf8e16fe7a28d48367a39bccb",
+      "bytes": 307,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/research_note.md": {
+      "sha256": "eab2e3a24a18d086ac6ca9251e60344823cad93497d61bdc8bef96d351c3bc53",
+      "bytes": 19157,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/agreed_audit_sensitivity.csv": {
+      "sha256": "03240f9e8872acac027e362eb3550fa17a380537b433129ce1ee14313f362e35",
+      "bytes": 269,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/audit_agreements.csv": {
+      "sha256": "c406dbcbc099899bb90e42e365a9dd5071ba780418f21edc4ef4845d4f0345b6",
+      "bytes": 6583,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/audit_by_conflict.csv": {
+      "sha256": "0dd6ebb90bd0c69d0840e0d315c48fc7cb7f2aae04d1b821a2d4c593f660004a",
+      "bytes": 442,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/by_anchor_topic.csv": {
+      "sha256": "e0b78351144f3942c9d0fac413c0c9fd1b939280783055bcedd28dcaded30279",
+      "bytes": 1684,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/by_author.csv": {
+      "sha256": "c45d89d03c4c18fc508c5bb45c02c2a55204febea1618f7c2e5c31da59ef590f",
+      "bytes": 588,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/by_conflict.csv": {
+      "sha256": "7ed00cdcc830bddafda301f349249d5a5d3ea6a48e5c5326fd176d5b312449ea",
+      "bytes": 2105,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/environment.json": {
+      "sha256": "5b7bb86d7a144b94d2c62b0dce6bf3a534f6917ff85776d54a12b1fd2e5bc3ea",
+      "bytes": 10189,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/figures/accuracy.png": {
+      "sha256": "f71dc2669b04a6508e3c34500c72ec0f78e61d0373e2834e7a42d63305895ef0",
+      "bytes": 52760,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/figures/conflict_differences.png": {
+      "sha256": "eb68e8d3560cc20d1cbcaf66f33558acbf413e0571fa63042869c4a8a91d7c83",
+      "bytes": 67042,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/figures/random_controls.png": {
+      "sha256": "1a66a1107ccc0605323c6da840af30265778c1dfad72315c818936205a1834f6",
+      "bytes": 56800,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/initial_audit_sensitivity.csv": {
+      "sha256": "75f59b877df4511ac7d9b54c08e29d7c82f05104fc911589bc79ba788193de37",
+      "bytes": 266,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/intervals.csv": {
+      "sha256": "548eb2ff104d6b11abe9a0860edbb3bc50c695bf353ea4d1a52c8360daa1108b",
+      "bytes": 1650,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/leave_one_author_out.csv": {
+      "sha256": "763feb34cf07fd8a9984d860c221f625520e2449b0fb412f1530c47afff034fa",
+      "bytes": 751,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/main_vectors.npz": {
+      "sha256": "572153ba2e2e7b2a9ec657d87ac6b719cd86347556626ccf320106970dfa2beb",
+      "bytes": 6519268,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/per_triplet.csv": {
+      "sha256": "dd27bb37628e185c2f222bdfb94cd33b75302420f08fcf9af9507db15dccec14",
+      "bytes": 109110,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/random_distributions.csv": {
+      "sha256": "ae10c1f4ad191aaa4717783b7f0a8c113ff290985863bf27397aa7bf2692020b",
+      "bytes": 705,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/random_map_specs.json": {
+      "sha256": "2bff1891789a78722e860b5c88bd7a1ee3ac15e1da319634db0928b137bddccb",
+      "bytes": 8503,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/random_per_triplet.csv": {
+      "sha256": "97caf63deb033d10140fd06c8b4be14a27079bb8e6991574c72270aa46ecdd15",
+      "bytes": 2601001,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/random_summary.csv": {
+      "sha256": "e2668a003749a038b1da7c923e152f250b5445c501ae506f872d44b18bd255ee",
+      "bytes": 8133,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/summary.csv": {
+      "sha256": "fe43c572fb61b41d763048edde52e81800c3241e1d1d0fbc4be59e7f492743aa",
+      "bytes": 193,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/results/transitions.csv": {
+      "sha256": "0122d6ebcbee9ce48e244f8c00d529374a91973f35cab4e7933381d238bd5035",
+      "bytes": 160,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/verification.json": {
+      "sha256": "75cb483b4beb9d0993f1b9c8ac65ece93dd0f649a673f135798e602251788515",
+      "bytes": 22497,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/original/write_report.py": {
+      "sha256": "512fd8d593835860187a851117f9f1279f406d52d5179a152f0af3fe9d42bded",
+      "bytes": 25979,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "study/source-verification.json": {
+      "sha256": "034eec01bd076efb04ba1e42071759eed47a82c6b82e8898c408cf946eed5b4f",
+      "bytes": 22497,
+      "origin": "preserved study artifact; see source_transformations.json",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "tests/test_reproduce.py": {
+      "sha256": "299c1c209504427653806ad5c44a3e53181d20cb3a9a55bf02e4e3c3b909191d",
+      "bytes": 3178,
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE"
+    }
+  }
+}

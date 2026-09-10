@@ -1,0 +1,242 @@
+[
+  {
+    "id": "e742051",
+    "A": "Chen may spend his research grant testing an unproven method for extracting lithium from seawater, with a real chance of producing nothing publishable. The same funds could extend a conventional battery study whose methods and likely results are well established. Should he explore the uncertain technique or choose the dependable project?",
+    "X": "After five steady years repairing bicycles, Simone can use her lease renewal money to open a mobile workshop that follows cycling events around the country. The roaming business offers independence and unknown demand, while renewing her current storefront preserves reliable customers and income. Should she take the open road or secure another fixed lease?",
+    "Y": "Aisha wants to study insects that communicate through vibrations, although her department chair and parents urge her to join a celebrated cancer laboratory. Her preferred field fascinates her but may draw their criticism and less enthusiastic references. Should she choose the research that feels personally right or follow the path that wins their approval?"
+  },
+  {
+    "id": "e444915",
+    "A": "A restaurant owner discovers that his oldest friend, the head chef, has been relabeling yesterday’s seafood as fresh. When a health inspector asks who changed the date stickers, naming the chef could end his career and their friendship. Giving another explanation would conceal what happened. How should the owner answer the inspector?",
+    "X": "A tailor receives an order for thirty school uniforms needed for Monday’s opening ceremony. She can finish them by Sunday only by skipping reinforced seams and final fittings, while proper construction requires delivery on Wednesday. Families need clothing for the ceremony, but rushed garments may fail quickly. Should she deliver on time or take longer to make them well?",
+    "Y": "Marisol learns that her cousin, a city licensing clerk, backdated a permit so a struggling shop could avoid closure. An auditor asks Marisol, who witnessed the change, whether the permit was issued on time. A truthful reply may cost her cousin his job; denying it protects him through a lie. What should Marisol say?"
+  },
+  {
+    "id": "e594670",
+    "A": "A city planner can pilot an on-demand night bus whose routes would change with passenger requests, though demand and operating costs remain unknown. The approved alternative adds one fixed evening service with guaranteed ridership from prior surveys. Should she test the flexible experiment or implement the predictable route residents already understand?",
+    "X": "A newly qualified nurse can join a relief team that assigns members to different clinics each week, offering broad experience but uncertain hours and conditions. A rehabilitation center nearby guarantees a protected schedule, training plan, and permanent contract. Should he enter the changing relief work or select the stable clinical post?",
+    "Y": "The housing office cancels applications when tenants miss two verification appointments, a rule already applied to several residents. Mrs. Evans missed her second because her wheelchair-accessible taxi never arrived, and eviction proceedings begin next week. Should the caseworker reopen her application as an exception or enforce the same deadline used for everyone?"
+  },
+  {
+    "id": "e478381",
+    "A": "While preparing quarterly accounts, florist Dana discovers that her brother and co-owner has been deleting cash sales from the tax records. Correcting the return would expose his actions, bring penalties, and possibly break their partnership, but signing the current figures makes her endorse a lie. Should Dana report the true sales or protect her brother and their shop?",
+    "X": "Jon reviews receipts for a neighborhood food pantry and sees that his closest friend claimed reimbursement for supplies she never purchased. Revealing the false claim would preserve an honest grant report but could remove her from the committee and end their friendship during a difficult divorce. Should Jon correct the accounts publicly or remain loyal to his friend?",
+    "Y": "A beverage distributor offers cafe owner Suki a profitable contract if she switches from washable glasses to individually wrapped plastic cups. The savings would fund a second location and raise her income, while thousands of discarded cups would add waste collected and processed by the whole city. Should Suki accept the contract for expansion or keep reusable service to reduce the wider burden?"
+  },
+  {
+    "id": "e632673",
+    "A": "A drug company offers physician Nina a generous speaking fee to recommend its branded inhaler at professional meetings. A cheaper generic works equally well, and widespread adoption of the brand would raise costs across patients and insurance pools. Should Nina accept the paid speaking role for personal income or decline to avoid imposing broader healthcare costs?",
+    "X": "A manufacturer promises researcher Caleb a large patent share if he develops a single-use sensor for laboratories. The disposable model could make him wealthy, but thousands of labs would discard batteries and plastic housings after every test when a reusable design is possible. Should Caleb pursue the profitable disposable sensor or develop the lower-waste alternative?",
+    "Y": "Cardiologist Amara is offered leadership of a renowned urban research center, giving her a path to international recognition. Taking it means leaving the rural clinic where nurses, patients, and neighbors have become her daily circle over eight years. Should Amara accept the prestigious post or remain with the close healthcare community that depends on her presence?"
+  },
+  {
+    "id": "e192668",
+    "A": "To finish a landscape series for an exhibition next year, Celia must paint outdoors at dawn three times a week through winter. Regular work would develop the shifting light she wants, while staying home would mean warm breakfasts and unhurried mornings with no immediate penalty. Should Celia maintain the dawn painting schedule?",
+    "X": "A gallery can accept a lucrative sponsorship from a cryptocurrency company, covering the director's bonus and the building's rent. The promotional installation would require energy-intensive computing throughout its six-month run, adding substantial electricity demand and emissions across the regional grid. Should the director sign the sponsorship agreement?",
+    "Y": "A pharmacist wants to serve deaf customers without relying on written notes, so she enrolls in a yearlong evening sign-language course. Lessons and homework occupy two nights each week that she currently spends relaxing at home after long shifts. Should she commit to attending and practicing throughout the year?"
+  },
+  {
+    "id": "e227316",
+    "A": "A laboratory assistant has saved enough to cover three months if his grant-funded job disappears. His former mentor’s elderly cat now needs surgery, and the mentor cannot afford the full bill after recent layoffs. Paying the balance would consume most of his emergency reserve. Should he safeguard his limited savings or help the animal receive treatment?",
+    "X": "Grace keeps a small reserve for her own insulin copayments after her clinic reduced staff hours. A patient she knows from the waiting room cannot buy antibiotics prescribed for a worsening infection and asks to borrow the money until payday. Helping could leave Grace short when her refill is due; should she lend the cash or protect her medication fund?",
+    "Y": "Evan enrolled in an evening statistics course to qualify for more demanding laboratory work. Tonight’s lesson covers a method used throughout the final project, but after dinner he wants to stay on the sofa and watch a newly released series. Attending requires a cold bus ride and two hours of concentration. Should he go to class or enjoy the comfortable evening at home?"
+  },
+  {
+    "id": "e393464",
+    "A": "Nurse Alvarez wakes with a fever before the final overnight shift of a colleague's maternity leave. The ward is already short-staffed, and staying home would leave one nurse caring for twelve recovering patients, but working could worsen her illness and delay recovery. Should Alvarez call in sick or fulfill the shift her team expects her to cover?",
+    "X": "After wrist surgery, a developer is instructed to avoid typing for ten days. A payroll fault appears in software he alone maintains, and hundreds of employees may be paid late unless he spends Saturday repairing it. Should he protect his healing wrist or complete the urgent fix for everyone awaiting their wages?",
+    "Y": "A physiotherapist has saved enough to renew the insurance protecting her small practice. One patient, a delivery rider, needs a brace before he can return to work but has exhausted his benefits. Buying it would leave the therapist briefly uninsured. Should she secure her own practice or purchase the brace that would restore his income?"
+  },
+  {
+    "id": "e696200",
+    "A": "Owen has been selected for a fast-track diplomatic posting that could make him the youngest regional consul in his service. Accepting means five years of frequent transfers, separating him from the volunteer fire crew he grew up with and reducing visits with his widowed mother to holidays. Should Owen enter the fast-track program?",
+    "X": "Every Saturday morning, a municipal librarian can attend a twelve-week cataloguing course that would qualify her to preserve the town's fragile archives. It requires early travel, homework, and giving up her only slow morning, when she normally sleeps late and reads for pleasure. Should she commit to completing the course?",
+    "Y": "Nadia's successful food-bank garden has earned her an offer to run a national network of urban farms. The role would give her funding and influence, but she would leave the tenants who built the original garden with her and stop sharing daily work with friends on the estate. Should Nadia accept the national position?"
+  },
+  {
+    "id": "e948707",
+    "A": "A botanical institute has pressed every new specimen into handmade paper folders since its founding. Curator Aditi can introduce sealed digital imaging stations that preserve fragile colors and allow remote study, but older botanists fear abandoning the tactile catalog that links generations of researchers. Should Aditi modernize specimen recording or continue the institute's traditional method?",
+    "X": "At Raul's neighborhood shoe shop, customers have always watched repairs at a front workbench and talked with the cobbler. Moving production behind a wall would allow modern machinery and faster service, but longtime patrons treasure the visible craft as part of every visit. Should Raul redesign the shop around the new equipment or preserve its open workbench tradition?",
+    "Y": "A private company offers oceanographer Mae a generous fee to conduct coral surveys by helicopter, allowing her to finish quickly and accept more contracts. Boats would take longer and pay her less, but repeated flights consume far more fuel and add emissions whose effects fall broadly on coastal ecosystems and communities. Should Mae choose the lucrative helicopter surveys or use the slower, lower-impact boats?"
+  },
+  {
+    "id": "e535396",
+    "A": "Carla has saved enough from weekend work to repair the roof of her own aging house before the rainy season. Another volunteer at the neighborhood pantry needs a deposit for accessible housing after an accident. Paying it would secure his move, but Carla’s home could suffer expensive water damage. Should she fund the deposit or protect her house?",
+    "X": "A swim instructor has one month of expenses saved after the pool announced possible closures. One of his adult students needs a prosthetic adjustment to continue walking without pain, and her appointment will be canceled unless she pays tomorrow. Covering it would erase his unemployment buffer. Should he keep his savings or pay for her care?",
+    "Y": "Volunteers promised to reopen the neighborhood playground by Friday, when school holidays begin. The new wooden ramp can be installed by then, but sealing and testing it properly requires four more days; delaying disappoints families who planned to use it immediately. Should the coordinator open on schedule or wait until the workmanship is fully reliable?"
+  },
+  {
+    "id": "e372525",
+    "A": "Emergency housing is assigned strictly by the date each application was completed. A family whose apartment burned down yesterday asks to move ahead of twelve households already waiting in temporary rooms. Advancing them would respond to sudden hardship but violate the same queue used for everyone. Should the housing officer move the family forward?",
+    "X": "A librarian has saved enough leave to cover her income if her chronic back condition flares again. A homeless patron she knows needs someone to pay a week's hostel fee before winter beds fill. Helping him would provide immediate shelter but leave her financially exposed during her next absence. Should she pay the fee?",
+    "Y": "A farming cooperative limits every member to a five-thousand-dollar emergency loan. One farmer needs twice that amount after cancer treatment left him unable to plant, while others with severe losses received only the standard sum. Should the board grant him a larger loan because of his illness?"
+  },
+  {
+    "id": "e809235",
+    "A": "A neighborhood shelter can add twenty beds before the first frost by dividing its hall with temporary screens. Building insulated rooms with durable plumbing would house fewer people this month but provide reliable accommodation for years. Should volunteers open the temporary spaces or wait for proper rooms?",
+    "X": "A neighborhood swimming club can replace its annual river race with a new indoor relay using electronic timing and mixed teams. The event may attract younger swimmers, while older members cherish the same river course, bells, and family picnic held for sixty years. Should the club change the event?",
+    "Y": "A youth cycling team needs twelve donated bicycles assembled before its first race next weekend. Tightening only essential parts would get every rider to the start, while a full rebuild and safety tune would take another month but produce dependable bikes. Should the mechanics rush the bicycles into service?"
+  },
+  {
+    "id": "e656482",
+    "A": "Neighbors have maintained their memorial garden through monthly hand-weeding days since the estate was built. A grant would install automated irrigation and low-maintenance planting, reducing labor but ending the gatherings where older residents teach children how each bed began. Should the committee redesign the garden or preserve its established communal care?",
+    "X": "A rehabilitation ward has begun each morning with patients and nurses walking one slow lap together, a custom former patients still remember. Managers propose individualized app-guided sessions that adjust exercises precisely but remove the shared round. Should the ward introduce personal digital programs or retain the collective routine that defines its history?",
+    "Y": "A residents’ group can spend its grant on an experimental floating garden designed by local teenagers, though permits, maintenance, and survival rates remain uncertain. A contractor offers a standard paved plaza with warranties and fixed costs. Should the group attempt the evolving garden or choose the predictable protected project?"
+  },
+  {
+    "id": "e771712",
+    "A": "A community garden assigns plots to the next person on its waiting list whenever rent is fourteen days late. A gardener falls behind after paying for her son's emergency travel, although two earlier members lost plots under the same rule. Should the committee reassign her plot fairly or allow extra time because of her hardship?",
+    "X": "A market requires every vendor to open by eight or surrender that day's stall. A florist arrives late after taking an injured neighbor to hospital, while previous late vendors were turned away. Letting her trade would prevent spoiled flowers but break equal treatment. Should the manager enforce the opening rule or grant her an exception?",
+    "Y": "A volunteer choir director wants to improve at the piano by practicing scales every evening for a year. Comfortable conversations at the local pub are immediately appealing, while the solitary drills promise only gradual skill later. Should he keep the demanding practice schedule or spend those evenings enjoying easier company?"
+  },
+  {
+    "id": "e230868",
+    "A": "Professor Ahmed deducts ten points from every essay submitted after noon. One student delivers hers that evening after spending the morning translating for her mother at an asylum hearing, and the penalty would make her fail, while classmates accepted deductions for other emergencies. Should Ahmed excuse this late essay or apply the announced penalty equally?",
+    "X": "A junior football academy releases any player who misses three mandatory practices. Coach Bruna's fastest winger reaches that limit because his family was evicted and he spent nights changing shelters, but several substitutes maintained perfect attendance. Should Bruna keep him on the squad because of his hardship or enforce the rule applied to everyone else?",
+    "Y": "Student adviser Milo wants to create a quiet woodworking club, although his parents and faculty colleagues consider it unsuitable for someone pursuing school leadership. They expect him to run the prestigious debate society and say senior staff will respect that choice. Should Milo start the club he personally wants or lead debate to gain their approval?"
+  },
+  {
+    "id": "e280448",
+    "A": "Medical student Isaac has committed to practicing surgical knots for forty minutes after each shift so his hands are ready for clinical assessment. Tonight he can continue the tedious drills in an empty classroom or join his housemates for pizza and board games downstairs. Should Isaac maintain the practice routine or take the easy, enjoyable evening with his housemates?",
+    "X": "Postal worker Marie is studying street maps each night to qualify for a better route assignment in three months. After dinner, memorizing unfamiliar addresses feels dull beside a soft chair and a half-finished mystery novel, but repeated study is the only way she will pass. Should Marie open the maps and study or spend the evening reading for pleasure?",
+    "Y": "Clinic administrator Faisal learns that his trusted deputy changed the time on a medication log to hide a late dose. Reporting the accurate time may lead to her dismissal after fifteen years together, while accepting the altered entry leaves the patient's record false and blocks a proper review. Should Faisal restore and report the true time or protect his loyal deputy?"
+  },
+  {
+    "id": "e602550",
+    "A": "A middle school can let students spend one term designing independent projects without preset subjects or outcomes. Some may discover interests teachers never anticipated, but others could finish with little assessable work; the standard curriculum guarantees covered material. Should the principal authorize open projects or keep every class on the established, predictable course?",
+    "X": "A lecturer is shortlisted for a prestigious post that requires moving overseas and teaching through most holidays. Winning it would accelerate her academic career, but she would leave the siblings and friends with whom she shares weekly meals and mutual care. Should she pursue the appointment or remain near the people who shape her daily life?",
+    "Y": "A research vessel reaches an unmapped cove where unusual algae may be growing. The captain can enter and let scientists collect rare samples, but navigation charts show uncertain depths; remaining offshore ensures the crew returns safely with existing data. Should the expedition explore the cove or follow the surveyed route home?"
+  },
+  {
+    "id": "e527974",
+    "A": "Every morning before her clinic shift, Dr. Shah studies Spanish so she can eventually speak directly with more patients. Today she would prefer another hour under the blankets, with no urgent appointment or examination forcing her up. Skipping makes the morning easier but interrupts the routine producing gradual improvement. Should she rise to study or keep sleeping?",
+    "X": "Leah prefers to train as a hospice nurse, drawn to long conversations with patients nearing death. Her parents and nursing classmates expect her to enter intensive care, which they consider more impressive and have celebrated publicly. Choosing hospice may disappoint them and reduce their praise. Which specialty should Leah select?",
+    "Y": "Colin spends three quiet evenings each week learning bookkeeping so he can manage his repair shop without outside help. Tonight, the accounts workbook is waiting, but the pub downstairs has live music and a comfortable booth reserved by friends. No bill is due tomorrow. Should Colin follow his learning routine or join the easy night out?"
+  },
+  {
+    "id": "e231603",
+    "A": "A university can sell its riverside playing field to build executive apartments, funding large bonuses for senior administrators. Construction would remove public green space, increase traffic through nearby streets, and worsen flooding for surrounding homes. Should the administrators approve the sale for their financial benefit?",
+    "X": "A data-center manager can earn a performance bonus by moving workloads to a cheaper coal-powered region. The transfer would lower his department's bill but increase emissions from electricity used by millions of daily software requests. Should he make the move or keep using costlier renewable power?",
+    "Y": "A professor grew up in poverty and worked nights throughout university. Telling her class could invite trust and more honest discussion from students facing similar pressures, but it would disclose family finances and painful experiences she has always kept private. Should she share that history during the seminar?"
+  },
+  {
+    "id": "e112381",
+    "A": "Organizer Julie can rent the community festival grounds to a private car show for a personal commission. Hundreds of vehicles would idle during demonstrations, bringing noise and exhaust to surrounding homes and a nearby school, while the payment would clear her debts. Should Julie secure the profitable booking or refuse because neighbors would bear the disruption?",
+    "X": "Hospital buyer Kofi is offered a personal bonus by a supplier if his clinic switches to individually packaged disposable gowns. The contract rewards him and simplifies storage, but it creates far more plastic waste and disposal costs shared by patients and the municipality. Should Kofi choose the bonus-paying supplier or retain reusable gowns to reduce the collective burden?",
+    "Y": "A community workshop suspends anyone who damages equipment through prohibited use. Coordinator Lena learns that a refugee member broke a saw while building emergency furniture for his family and cannot afford private tools, though previous violators served suspensions. Should Lena waive the penalty because of his hardship or enforce the same rule for every member?"
+  },
+  {
+    "id": "e365088",
+    "A": "Tessa can lease a large vineyard in another region and finally produce wine under her own name. The move would separate her from the cooperative where neighbors share machinery, celebrate harvests, and have worked beside her since childhood. If she stays, her operation will remain modest; should she pursue the vineyard or keep her place in the cooperative?",
+    "X": "Rosa can plant an unfamiliar drought-resistant melon that might thrive in the changing climate and earn a premium, though no local grower knows how it will perform. Her usual barley has a guaranteed buyer and predictable yield but little upside. Should she experiment with the melon or choose the protected return of barley?",
+    "Y": "When a national retailer offers to stock Amir’s ceramics, he must open a second workshop in another city and oversee it personally for eighteen months. The deal could transform his shop, but he would lose the daily contact he values with his partner and longtime market community. Should Amir accept the expansion or preserve his life among them?"
+  },
+  {
+    "id": "e310200",
+    "A": "Every winter, the town’s postal workers deliver handwritten holiday messages to isolated residents during a ceremonial Sunday round. Management proposes replacing the round with scheduled video calls run from the library, reaching more people but ending the familiar visits. Should the town adopt the digital service or preserve the annual delivery tradition?",
+    "X": "A transport officer can lead a nationally funded rail project, a promotion that may eventually make her agency director. The new post requires relocation and constant travel, separating her from the depot colleagues and nearby cousins who fill her ordinary weeks. Should she pursue the senior role or remain within those close relationships?",
+    "Y": "At graduation, pupils have always presented oral histories in the school courtyard while families pass around one shared archive book. Teachers propose an interactive website where students can combine audio and maps, but the courtyard presentation would disappear. Should the school introduce the digital format or retain the ceremony maintained for generations?"
+  },
+  {
+    "id": "e886494",
+    "A": "Tailor Simone has promised forty altered uniforms to a restaurant opening tomorrow. A sudden eye infection makes close stitching painful and her doctor advised avoiding detailed work, but the restaurant cannot postpone its opening and her assistant cannot finish alone. Should Simone sew through the evening to deliver the uniforms or stop and protect her eyesight?",
+    "X": "Goalkeeper Pavel agreed to play in the amateur league final because his club has no reserve. After a fall at work, he has a suspected concussion and needs monitoring, yet withdrawing would force ten teammates to forfeit the match they trained all year to reach. Should Pavel honor his commitment to play or sit out for his health?",
+    "Y": "Bookshop owner Clara charges every vendor the same nonrefundable fee for canceling an event within forty-eight hours. A debut author cancels because her child has been hospitalized and asks Clara to return money needed for travel, although two other vendors recently paid the fee. Should Clara grant this hardship exception or apply the cancellation policy equally?"
+  },
+  {
+    "id": "e107194",
+    "A": "The college excludes students from graduation when library debts remain unpaid, and several classmates have already arranged loans to comply. Isaac owes $180 after months of caring for an unemployed parent and cannot borrow more. Should the dean let Isaac graduate despite the debt or enforce the requirement applied to everyone?",
+    "X": "An orchestra deducts a musician’s concert fee after any unexcused dress-rehearsal absence, as two players learned last month. Mina missed rehearsal when her landlord unexpectedly locked her out with her instrument inside. Should the manager spare Mina the deduction because of her circumstances or apply the same rule used before?",
+    "Y": "Priyanka reserves an hour before breakfast to practice difficult piano scales for a recital she hopes to give next year. This morning, the house is quiet and her bed remains pleasantly warm, while no teacher expects immediate results. Should she get up and maintain the practice or enjoy another hour of sleep?"
+  },
+  {
+    "id": "e889561",
+    "A": "Devon promised to supervise a critical database migration because the junior engineers have never performed one. On the scheduled night, he develops a high fever and dizziness; postponement would interrupt a client's launch, but staying online until dawn may deepen his illness. Should Devon lead the migration as promised or stop working to recover?",
+    "X": "Midwife Hana has completed a double shift when a patient she supported throughout pregnancy goes into complicated labor. The replacement midwife is qualified but unfamiliar with the patient's history, while Hana is shaking from fatigue and needs sleep to recover safely. Should Hana remain for the birth she promised to attend or hand over care and rest?",
+    "Y": "Developer Arjun can spend a month experimenting with an unfamiliar database that might make his new app remarkably flexible, though its limitations are still unclear. The proven system offers predictable performance and reliable backups but restricts several features he hopes to discover. Should Arjun explore the uncertain technology or build with the safer established platform?"
+  },
+  {
+    "id": "e790209",
+    "A": "Rina has enough leave for one climbing expedition. She can join friends attempting an unfamiliar route in Patagonia, where weather and success are uncertain, or book a guided ascent on a mountain she has climbed before with fixed camps and emergency support. Which trip should she choose for her only season away?",
+    "X": "A stadium offers Victor triple his usual fee to drive spectators to matches in his private diesel coach every weekend. The service would add hundreds of journeys through a district already exceeding air-quality limits, affecting residents he will never meet. Should Victor take the profitable contract or refuse because of the added pollution?",
+    "Y": "A geology student can spend summer mapping an unmapped volcanic valley with a small exploratory team, though they may return without useful samples. A funded laboratory placement offers defined tasks, housing, and a near-certain publication credit. Should he enter the uncertain field project or accept the predictable laboratory post?"
+  },
+  {
+    "id": "e167363",
+    "A": "For eight weeks, Keira has planned to spend each Saturday cataloging insect specimens so she can learn reliable identification before field season. Rain taps against the windows, and staying in bed with coffee and a novel feels far more inviting than hours at the microscope. Should she keep her practice session or enjoy the restful morning?",
+    "X": "During a collaborative astronomy project, Inez realizes that a recent divorce has made concentration difficult and caused errors in her calculations. Telling her research partners could help them redistribute checks and understand missed meetings, but it would reveal a painful personal event she has shared with nobody at work. Should Inez explain her circumstances or preserve her privacy?",
+    "Y": "Aiden enrolled in a yearlong evening course to become fluent in sign language. Tonight’s lesson requires a long bus journey after an ordinary day at work, while his roommates are ordering pizza and starting a favorite comedy marathon. Missing class carries no immediate penalty but weakens his steady progress. Should Aiden attend or stay home with them?"
+  },
+  {
+    "id": "e677760",
+    "A": "Heavy rain is approaching, and orchard owner Tomas has one day to harvest pears for a supermarket order. Fast picking gets the fruit under cover but causes bruising and mixes unripe pears into crates; careful selection produces better boxes while leaving part of the crop exposed. Should Tomas harvest everything quickly or risk rain to maintain quality?",
+    "X": "A museum asks programmer Nia to deliver its ticketing website before a holiday weekend. She can activate the tested booking pages now, or postpone launch to improve screen-reader navigation and verify complex group refunds, losing several busy days. Should Nia release the basic site on time or finish the slower, more dependable version?",
+    "Y": "Farmer Grace saved this season's reserve to repair a leaking barn roof before winter. Her hired shepherd's daughter needs an insulin pump that the family cannot afford, and paying for it would provide direct help but leave Grace's livestock and income exposed to storms. Should Grace fund the child's pump or preserve the farm's emergency reserve?"
+  },
+  {
+    "id": "e322785",
+    "A": "Climber Felix has one free day in the Dolomites and can attempt an unmarked ridge that promises new views but has uncertain rock conditions. The local guide recommends a protected route with reliable anchors and an exact descent time, though Felix has climbed it twice before. Should Felix explore the unknown ridge or take the secure familiar route?",
+    "X": "Programmer Yasmin is choosing the foundation for a personal game. An experimental engine would let her invent unusual physics and perhaps produce something distinctive, but documentation is incomplete and the project may fail; a mature engine supplies tested tools and predictable results within her vacation. Should Yasmin explore the experimental engine or use the reliable established one?",
+    "Y": "A youth football league needs replacement goalposts before Saturday's tournament. Fabricator Hugo can weld a basic set by Friday, allowing every match to proceed, or spend another week reinforcing joints and applying weatherproof coating for a safer, longer-lasting finish. Should Hugo deliver the workable goalposts in time or delay the tournament to complete them properly?"
+  },
+  {
+    "id": "e195720",
+    "A": "A touring company offers Luis the principal role he has pursued for a decade, with rehearsals beginning overseas next month. The contract could establish his career, but it would keep him away through his partner’s first year of parenthood and turn their settled home life into brief video calls. Does Luis sign or remain with his growing family?",
+    "X": "Priya has been offered the lead in an experimental play she loves, but her parents and fellow actors expect her to join a respected classical production instead. Choosing the experimental role would feel artistically honest, while disappointing people whose respect and future invitations matter to her. Which production should Priya accept?",
+    "Y": "Nadia can become headteacher at a renowned academy two counties away, a post that recognizes years of exceptional work. The commute and evening obligations would end her weekday meals and neighborhood routines with friends who have become her chosen family. Should she pursue the appointment or keep the daily bonds she has built where she lives?"
+  },
+  {
+    "id": "e115286",
+    "A": "The organizer of a neighborhood grant wants to create a tool library where residents share equipment and teach repairs. Major donors expect a commemorative stone plaza bearing their names and imply that future funding depends on it. Should the organizer defend the project she believes residents need?",
+    "X": "June wants to leave her academic secondary school for a vocational college where she can learn furniture making. Her parents and teachers praise university preparation and say they will be disappointed if she gives up that route. Should June enroll in the course she prefers?",
+    "Y": "A town festival can reserve one street for residents to build unscripted performances and installations during the day, producing discoveries but also unfinished or unstable work. Hiring an events company would provide tested stages, fixed schedules, and insured acts. Which format should the festival committee choose?"
+  },
+  {
+    "id": "e529610",
+    "A": "Elena is offered a promotion to direct emergency medicine at a renowned city hospital, giving her authority to reshape the department and advance her career. The move would take her family away from grandparents who provide daily childcare and from neighbors who supported them through her son's illness. Should Elena accept the directorship?",
+    "X": "A clinic owner can replace reusable examination gowns with cheaper disposable ones, increasing her annual income enough to renovate her office. The change would send thousands of plastic-lined garments to landfill each year and add emissions from weekly deliveries, while reusable gowns keep laundry and replacement costs high. Should she switch to disposables?",
+    "Y": "A cooperative has invited Marcus to manage its largest vineyard, a position that could establish him as a leading winemaker. He would have to relocate before harvest, leaving the small farming community where his cousins share equipment and where he has spent every evening caring for the family orchard. Should Marcus take the vineyard job?"
+  },
+  {
+    "id": "e629289",
+    "A": "Jonah’s university will fund his doctorate if he transfers to a campus across the country, where a leading scholar has agreed to supervise him. Leaving would interrupt the weekly care he shares for his grandfather and separate him from cousins who rely on those evenings together. Should Jonah accept the academic opportunity or remain embedded in his family’s life?",
+    "X": "A rural physician has been selected for a competitive surgical fellowship in the capital, opening a path to the specialty she has always wanted. The two-year move would take her from the clinic team and neighbors who supported her through a difficult divorce. Does she leave to advance or stay with the community where she belongs?",
+    "Y": "During a group project, Marcus notices that panic attacks are making presentations difficult. Telling his classmates could let them divide speaking duties honestly and understand his sudden absences, but it would expose a diagnosis he has kept private from everyone at school. Should Marcus disclose his condition to the group or keep it confidential?"
+  },
+  {
+    "id": "e535562",
+    "A": "A family restaurant has served one fixed Sunday menu from the grandmother's handwritten recipes for sixty years. Introducing rotating regional dishes could draw new customers, but regulars and relatives consider the unchanged meal part of the family's continuity. Should the new owner redesign the menu or preserve the traditional Sunday service?",
+    "X": "A primary school has taught local history through an annual walking tour led by retired residents. Interactive classroom archives would offer more sources and work in bad weather, yet the walk preserves a valued exchange between children and elders. Should teachers replace it with the digital course or keep the long-standing community tour?",
+    "Y": "A hardware shop owner has reserved cash to replace a delivery van that may fail soon. His longtime cashier needs an emergency deposit to escape an unsafe flat with her daughter. Lending the money could leave the shop unable to make deliveries. Should the owner protect the vehicle fund or help his employee move immediately?"
+  },
+  {
+    "id": "e650040",
+    "A": "Mina joined the city planning department but wants to work in its small cycling unit because she prefers designing street-level routes. Her family expects her to pursue the prestigious diplomatic service examination, and their approval depends on seeing her enter a nationally recognized career. Which path should Mina follow?",
+    "X": "After a river bridge is damaged, the council can reopen one lane in ten days using temporary supports, restoring bus service quickly. A full structural repair would keep it closed for seven weeks but withstand heavy traffic and winter floods with greater reliability. Which repair plan should the council approve?",
+    "Y": "A chemist wants to leave daily laboratory work for a public field station, explaining water results directly to rural communities. His research colleagues say serious scientists remain at the bench and may stop recommending him for collaborations. Should he choose the field role he prefers?"
+  },
+  {
+    "id": "e671472",
+    "A": "Illustrator Benicio wants his next exhibit to feature stark charcoal portraits, although his gallery owner and relatives prefer the bright landscapes that made him popular. They say the darker work will embarrass supporters attending the opening and may stop recommending him. Should Benicio show the portraits he wants to make or paint landscapes that preserve their approval?",
+    "X": "Librarian Heather prefers to move the children's reading hour outdoors, where stories could include walks and noisy games. Her colleagues and parent committee expect the quiet indoor format and suggest she is being unprofessional by changing it. Should Heather run the lively outdoor program she favors or keep the familiar format to satisfy them?",
+    "Y": "Dancer Kwame receives an offer to join a celebrated contemporary company that could make him an international soloist. Its two-year tour would remove him from the small cultural center where he rehearses daily with childhood friends and teaches their children. Should Kwame accept the career-making tour or remain rooted in the artistic community that raised him?"
+  },
+  {
+    "id": "e782824",
+    "A": "Every Wednesday, Omar spends two hours updating donor records for a volunteer-run youth center so its next funding application will be accurate. Tonight the entries are especially repetitive, and neighbors are holding a barbecue in the courtyard, but skipping them will create a larger backlog. Should Omar finish the records as planned or go downstairs to enjoy the barbecue?",
+    "X": "Graduate researcher Chloe must calibrate a sensor at dawn each day for six weeks to produce comparable readings. Tomorrow's forecast is cold and gray, and she could stay in her warm room after a late film, though one missing measurement would weaken the series. Should Chloe rise for the calibration or sleep through the uncomfortable morning?",
+    "Y": "Treasurer Emmett has reserved the neighborhood cleanup fund for protective gloves and waste bins needed next month. A volunteer's elderly dog needs urgent dental treatment, and she asks to borrow the fund until her next paycheck; helping could relieve the animal's pain but leave the cleanup unequipped. Should Emmett lend her the money or safeguard the project's limited resources?"
+  },
+  {
+    "id": "e628765",
+    "A": "A small software firm has tracked every bug on index cards pinned around the office since its first release. A shared digital board would support remote staff and faster searching, but founders see the handwritten wall as part of how the team remembers its history. Should the firm adopt digital tracking or preserve the card-based tradition?",
+    "X": "A mountain village has dried pears on communal wooden racks for more than a century. Enclosed solar dryers would reduce spoilage and labor, yet families value gathering at the old racks and teaching children the inherited method. Should the growers install the new dryers or continue the traditional communal process?",
+    "Y": "A software training program requires every participant who misses a lab to pay the same rebooking fee. One apprentice was absent because her child needed emergency surgery and asks to reschedule for free. Waiving it would ease her hardship but depart from the rule enforced for others. Should the director apply the fee or grant her an exception?"
+  },
+  {
+    "id": "e437483",
+    "A": "Jamal has followed a twelve-week swimming plan and scheduled a demanding interval session for this evening. There is no race or deadline, and he feels healthy, but friends have opened the garden fire and offered him a hammock and cold lemonade. Should he complete the training that builds endurance or spend the warm evening relaxing with them?",
+    "X": "Ruth practices interpreting medical scans for an advanced certification she hopes to earn next year. After dinner, her study schedule calls for reviewing forty cases, but a deep armchair and a new mystery film promise immediate pleasure after a routine shift. Should Ruth work through the cases or settle in for the comfortable evening?",
+    "Y": "A professional goalkeeper is offered a starting place with a championship contender in another country. The transfer could lead to international selection, but it would separate her from the teammates and extended family she sees throughout every week. Staying means remaining a reserve with fewer honors. Should she chase the higher level or preserve her close daily ties?"
+  }
+]

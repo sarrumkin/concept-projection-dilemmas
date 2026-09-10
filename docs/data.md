@@ -1,0 +1,9 @@
+# Data and provenance
+
+The public study contains a fixed synthetic corpus of 240 triplets and 720 unique English paragraphs. Four AI authoring branches supplied 60 triplets each. A triplet preserves its conflict and topic assignments, but those labels are not encoder inputs.
+
+The first authoring pass was rejected before scoring because sampled texts showed recurring templates and role markers. The corpus was regenerated in smaller authoring tasks, then audited again. The two initial semantic audits jointly agreed with the authored relation on 140/240 (individual agreements: 154/240 and 221/240). A separate masked correction pass then checked whether each candidate letter matched its original explanation; the final joint agreement is 225/240. This is an AI audit trail, not independent human validation; the primary score uses all 240 authored relations.
+
+The attribute bank is `data/bhatia/attributes.csv`, preserved with its complete MIT notice. The model weights are not distributed; the pinned model identifier and revision are recorded in the frozen study. The accompanying Bhatia article PDF is excluded because it is CC BY-NC-ND 4.0. Bhatia OSF material was checked under a verified MIT license. Copyright for the Bhatia work remains with Sudeep Bhatia, Simon van Baal, and Lukasz Walasek (2024).
+
+Historical source materials are in [`study/original`](../study/original), including the protocol, corpus, audits, vectors, scores, and reports. Of 194 source artifacts, 191 are byte-identical; three saved outputs contain documented local-path redactions. The [transformation record](source_transformations.json) lists their original and public hashes. All 32 frozen inputs, the eight design hashes, and the original notebook's code cells remain unchanged. Both the original and public verification manifests are included.

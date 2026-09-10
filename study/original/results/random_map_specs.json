@@ -1,0 +1,422 @@
+[
+  {
+    "family": "gaussian",
+    "replicate": 0,
+    "map_seed": 20260911,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 1,
+    "map_seed": 20260912,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 2,
+    "map_seed": 20260913,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 3,
+    "map_seed": 20260914,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 4,
+    "map_seed": 20260915,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 5,
+    "map_seed": 20260916,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 6,
+    "map_seed": 20260917,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 7,
+    "map_seed": 20260918,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 8,
+    "map_seed": 20260919,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 9,
+    "map_seed": 20260920,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 10,
+    "map_seed": 20260921,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 11,
+    "map_seed": 20260922,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 12,
+    "map_seed": 20260923,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 13,
+    "map_seed": 20260924,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 14,
+    "map_seed": 20260925,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 15,
+    "map_seed": 20260926,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 16,
+    "map_seed": 20260927,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 17,
+    "map_seed": 20260928,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 18,
+    "map_seed": 20260929,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 19,
+    "map_seed": 20260930,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 20,
+    "map_seed": 20260931,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 21,
+    "map_seed": 20260932,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 22,
+    "map_seed": 20260933,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 23,
+    "map_seed": 20260934,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 24,
+    "map_seed": 20260935,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 25,
+    "map_seed": 20260936,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 26,
+    "map_seed": 20260937,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 27,
+    "map_seed": 20260938,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 28,
+    "map_seed": 20260939,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "gaussian",
+    "replicate": 29,
+    "map_seed": 20260940,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 0,
+    "map_seed": 20261911,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 1,
+    "map_seed": 20261912,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 2,
+    "map_seed": 20261913,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 3,
+    "map_seed": 20261914,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 4,
+    "map_seed": 20261915,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 5,
+    "map_seed": 20261916,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 6,
+    "map_seed": 20261917,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 7,
+    "map_seed": 20261918,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 8,
+    "map_seed": 20261919,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 9,
+    "map_seed": 20261920,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 10,
+    "map_seed": 20261921,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 11,
+    "map_seed": 20261922,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 12,
+    "map_seed": 20261923,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 13,
+    "map_seed": 20261924,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 14,
+    "map_seed": 20261925,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 15,
+    "map_seed": 20261926,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 16,
+    "map_seed": 20261927,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 17,
+    "map_seed": 20261928,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 18,
+    "map_seed": 20261929,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 19,
+    "map_seed": 20261930,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 20,
+    "map_seed": 20261931,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 21,
+    "map_seed": 20261932,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 22,
+    "map_seed": 20261933,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 23,
+    "map_seed": 20261934,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 24,
+    "map_seed": 20261935,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 25,
+    "map_seed": 20261936,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 26,
+    "map_seed": 20261937,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 27,
+    "map_seed": 20261938,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 28,
+    "map_seed": 20261939,
+    "input_dimension": 384,
+    "output_dimension": 207
+  },
+  {
+    "family": "spectrum_matched",
+    "replicate": 29,
+    "map_seed": 20261940,
+    "input_dimension": 384,
+    "output_dimension": 207
+  }
+]

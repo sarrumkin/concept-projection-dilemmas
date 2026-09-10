@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "e511029",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh private financial gain against diffuse environmental waste imposed on many others through an efficient but harmful default."
+  },
+  {
+    "id": "e656482",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast modernization that reduces labor with preserving a communal ritual whose educational relationships and shared history matter."
+  },
+  {
+    "id": "e904759",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue uncertain growth and discovery or retain a proven, predictable option that limits expansion."
+  },
+  {
+    "id": "e696200",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit an exceptional career opportunity against leaving a close, long-standing community and reducing everyday relationships."
+  },
+  {
+    "id": "e222314",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both concern revealing a private identity or history to improve collaboration, weighed against retaining personal confidentiality."
+  },
+  {
+    "id": "e231603",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer personal financial benefit while shifting substantial environmental costs onto a broad population using shared infrastructure."
+  },
+  {
+    "id": "e750120",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both force someone to choose between protecting essential personal financial security and directly relieving another person's serious hardship."
+  },
+  {
+    "id": "e107194",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both test consistent application of an established rule against granting a compassionate exception for an individual's difficult circumstances."
+  },
+  {
+    "id": "e897599",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit protecting one's health against fulfilling a critical public or team responsibility when replacement is unavailable."
+  },
+  {
+    "id": "e411947",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both involve disclosing a private, painful health history to repair practical collaboration while risking exposure of deeply personal information."
+  },
+  {
+    "id": "e886494",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require choosing between honoring a demanding commitment benefiting many people and withdrawing to prevent serious worsening of one's health."
+  },
+  {
+    "id": "e449534",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit sustained effort toward a difficult long-term goal against immediate leisure and social pleasure that would interrupt progress."
+  },
+  {
+    "id": "e149636",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow an personally meaningful path or accept others' prestigious preferred route to retain their approval."
+  },
+  {
+    "id": "e748039",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh explaining an intimate medical condition to preserve trust and coordination against protecting privacy from a familiar community."
+  },
+  {
+    "id": "e735008",
+    "choice": "Y",
+    "confidence": "medium",
+    "explanation": "Both present increased private profit through a scalable change alongside substantial harms imposed on workers, users, or the surrounding public."
+  },
+  {
+    "id": "e961947",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance timely release and immediate usefulness against slower verification that improves reliability and catches consequential errors."
+  },
+  {
+    "id": "e677760",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast meeting an urgent deadline with an imperfect result against delaying to deliver more reliable, carefully verified quality."
+  },
+  {
+    "id": "e266383",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit fulfilling a commitment crucial to others against stopping to protect one's body when continuing risks significant health damage."
+  },
+  {
+    "id": "e345957",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "A combines consistent rules versus hardship exceptions, matching X's late medical case and Y's undocumented family crisis."
+  },
+  {
+    "id": "e760826",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh truthfully reporting misconduct that harms a trusted relationship against protecting that person through concealment or deception."
+  },
+  {
+    "id": "e535562",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether modernization and broader options justify ending a long-standing communal tradition that carries family or local identity."
+  },
+  {
+    "id": "e478188",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit a person's preferred creative or life direction against established expectations whose approval and respect provide social security."
+  },
+  {
+    "id": "e393194",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh applying a fixed deadline or fee consistently against granting a compassionate exception for someone facing severe hardship."
+  },
+  {
+    "id": "e970100",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh replacing inherited symbolic practices with standardized modernization against preserving distinctive rituals that anchor collective identity."
+  },
+  {
+    "id": "e192668",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sustained personal training toward a future capability while immediate comfort and relaxation make postponement attractive."
+  },
+  {
+    "id": "e215267",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh disclosing a stigmatized personal history to build trust and help others against losing control of private information."
+  },
+  {
+    "id": "e650040",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast personally preferred public-facing work with a conventional prestigious career path favored by one's professional circle."
+  },
+  {
+    "id": "e563179",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance delivering usable work quickly under urgent circumstances against delaying for thorough checking and higher reliability."
+  },
+  {
+    "id": "e515293",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh compassionate rule-breaking for exceptional hardship against equal enforcement of an established eligibility rule."
+  },
+  {
+    "id": "e271575",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit accurate reporting of wrongdoing against loyalty to a trusted friend whose consequences could damage the relationship."
+  },
+  {
+    "id": "e979356",
+    "choice": "Y",
+    "confidence": "medium",
+    "explanation": "Both compare uncertain exploratory projects with safer established options, balancing discovery and autonomy against predictability and protection."
+  },
+  {
+    "id": "e909061",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both involve explaining concealed trauma or illness to improve workplace coordination while risking exposure of deeply private history."
+  },
+  {
+    "id": "e633721",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue an inclusive or personally preferred direction despite losing endorsement from close peers who control opportunities."
+  },
+  {
+    "id": "e598211",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require reporting a colleague's concealed professional wrongdoing, protecting truthful records despite likely damage to a personal relationship."
+  },
+  {
+    "id": "e889561",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit stopping to protect health against honoring a high-stakes professional responsibility when others depend on one's presence."
+  },
+  {
+    "id": "e818481",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh preserving one's essential financial security against using scarce resources to rescue another person facing immediate serious need."
+  },
+  {
+    "id": "e825330",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance restoring essential service quickly against delaying for comprehensive checks that reduce future failure and improve reliability."
+  },
+  {
+    "id": "e826355",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require truthful reporting of a trusted person's misconduct despite family or friendship consequences and pressure to conceal it."
+  },
+  {
+    "id": "e464045",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh releasing a workable product before a deadline against delaying to improve accessibility, completeness, and dependable quality."
+  },
+  {
+    "id": "e527974",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit disciplined investment in gradual future improvement against immediate comfort and social enjoyment with no urgent penalty."
+  },
+  {
+    "id": "e579873",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow an unconventional personally meaningful direction despite respected peers' expectations and the professional support they control."
+  },
+  {
+    "id": "e136130",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh enforcing an established eligibility rule against granting an exception because severe personal hardship prevented compliance."
+  },
+  {
+    "id": "e438502",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit a major career promotion against remaining physically present with close family and an established local team."
+  },
+  {
+    "id": "e472464",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance meeting a promised deadline with imperfect checking against delaying to provide more accurate, carefully reviewed work."
+  },
+  {
+    "id": "e375642",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh disclosing a private health condition to improve workplace understanding against preserving confidentiality and avoiding changed perceptions."
+  },
+  {
+    "id": "e987456",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh explaining an intimate medical condition to improve coordination against protecting private information from a close community."
+  },
+  {
+    "id": "e899130",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast prestigious expansion and influence with staying alongside the local community whose relationships made the work meaningful."
+  },
+  {
+    "id": "e393464",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit fulfilling an important staffing responsibility against withdrawing to protect health when continuing could worsen illness."
+  },
+  {
+    "id": "e377040",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue a personally preferred direction despite family or professional expectations that confer approval and status."
+  },
+  {
+    "id": "e782208",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast replacing a familiar inherited system with efficient digital technology against preserving local routines and relationships."
+  },
+  {
+    "id": "e802980",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both involve revealing recovery or anxiety history to repair collaboration and trust while risking exposure of intimate health information."
+  },
+  {
+    "id": "e892350",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit disciplined repetitive work toward future achievement against immediate relaxation and comfort after ordinary daily obligations."
+  },
+  {
+    "id": "e693438",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh efficient mechanization against preserving a hands-on communal tradition through which generations learn local identity and skills."
+  },
+  {
+    "id": "e873827",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether modern digital systems' convenience justifies ending a visible, inherited civic ritual valued by regular participants."
+  },
+  {
+    "id": "e385608",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer private economic gain through a convenient practice that creates persistent, widespread environmental costs for others."
+  },
+  {
+    "id": "e579607",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require exposing a trusted person's deception to establish truth, risking that person's reputation and the relationship supporting the narrator."
+  },
+  {
+    "id": "e175890",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast personal or organizational financial benefit with broad environmental and social costs imposed on many people."
+  },
+  {
+    "id": "e699555",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit truthful disclosure of a friend's wrongdoing against protecting that friend from serious reputational or professional consequences."
+  },
+  {
+    "id": "e682986",
+    "choice": "both",
+    "confidence": "medium",
+    "explanation": "Both compare uncertain, potentially rewarding exploration with controlled safety; each asks whether discovery justifies increased risk."
+  },
+  {
+    "id": "e629289",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh an exceptional academic or professional advancement opportunity against leaving a close community and family responsibilities."
+  },
+  {
+    "id": "e497456",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit honoring a commitment essential to others against stopping to protect one's health when working risks prolonging injury or illness."
+  },
+  {
+    "id": "e104500",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both involve disclosing a private diagnosis to improve trust and practical support while risking stigma and loss of confidentiality."
+  },
+  {
+    "id": "e989918",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh compassionate exceptions to consistent rules against equal enforcement when an individual's exceptional hardship explains noncompliance."
+  },
+  {
+    "id": "e690672",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer personal profit from an efficient choice while shifting substantial resource or waste burdens onto the wider community."
+  },
+  {
+    "id": "e729209",
+    "choice": "Y",
+    "confidence": "medium",
+    "explanation": "Both contrast automating a long-standing practice with preserving inherited communal rituals and material traces of collective work."
+  },
+  {
+    "id": "e905292",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sustained training through unpleasant leisure-sacrificing work to gain a future capability and opportunity."
+  },
+  {
+    "id": "e837276",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit a personally preferred vocation against a prestigious conventional path favored by family and peers whose approval matters."
+  },
+  {
+    "id": "e347223",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit protecting one's health from serious physical strain against completing a public responsibility when replacement is unavailable."
+  },
+  {
+    "id": "e191647",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require sacrificing scarce personal financial security to provide another person access to an urgent opportunity or need."
+  },
+  {
+    "id": "e826013",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to reveal a close colleague's wrongdoing to preserve truth and fairness despite damaging loyalty and friendship."
+  },
+  {
+    "id": "e729603",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer substantial private financial gain while damaging shared natural systems and imposing environmental costs on a broad region."
+  },
+  {
+    "id": "e940305",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh preserving essential personal financial reserves against helping another person facing an immediate serious need."
+  },
+  {
+    "id": "e790209",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain exploratory experiences with predictable supported paths, balancing discovery and autonomy against safety and reliable outcomes."
+  },
+  {
+    "id": "e406118",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally meaningful work or sport despite close supporters' expectations of a more prestigious established role."
+  },
+  {
+    "id": "e310200",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh efficient digital replacement against preserving an inherited face-to-face ceremony that embodies community memory and connection."
+  },
+  {
+    "id": "e684845",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both compare an unpredictable, potentially meaningful opportunity with a secure established role offering stable conditions and reliable rewards."
+  },
+  {
+    "id": "e578352",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit protecting a fragile personal or business financial reserve against directly assisting someone facing urgent hardship."
+  },
+  {
+    "id": "e948218",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit an exceptional leadership opportunity requiring prolonged separation against preserving daily companionship with a close, supportive community."
+  },
+  {
+    "id": "e918142",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require correcting a trusted person's false record despite reputational and professional consequences, rather than protecting loyalty through silence."
+  },
+  {
+    "id": "e791685",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast exploratory freedom and discovery with controlled conditions that provide predictable safety and support."
+  },
+  {
+    "id": "e123750",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both replace a generational ritual with a more consistent automated system, weighing measurement efficiency against shared inherited identity."
+  },
+  {
+    "id": "e495461",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit preserving one's essential financial reserve against funding another person's urgent treatment or opportunity."
+  },
+  {
+    "id": "e668841",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sustained repetitive practice for future improvement despite immediate comfort making it tempting to skip the session."
+  },
+  {
+    "id": "e945953",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both balance early useful release against delaying for thorough verification that protects accuracy and prevents consequential mistakes."
+  },
+  {
+    "id": "e621976",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit disciplined long-term practice against comfortable leisure that is immediately attractive but interrupts gradual progress."
+  },
+  {
+    "id": "e433270",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh meeting an urgent delivery deadline with adequate quality against delaying to complete thorough finishing and reliability checks."
+  },
+  {
+    "id": "e713368",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require repetitive self-discipline toward future professional benefit while immediate relaxation offers an easier alternative."
+  },
+  {
+    "id": "e860383",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh retaining scarce personal financial protection against using it to meet another person's immediate essential need."
+  },
+  {
+    "id": "e282243",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit prestigious advancement requiring separation against remaining within close relationships and responsibilities that give current life meaning."
+  },
+  {
+    "id": "e492437",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both involve revealing private personal circumstances to restore collaboration or trust while risking unwanted exposure and changed perceptions."
+  },
+  {
+    "id": "e632673",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer private financial gain through a scalable choice that imposes broader costs on patients, users, or the environment."
+  },
+  {
+    "id": "e491714",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast personal income from a convenient choice with widespread environmental or public costs borne by surrounding residents."
+  },
+  {
+    "id": "e177634",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh applying an established attendance or payment rule consistently against making a compassionate exception for hardship."
+  },
+  {
+    "id": "e315995",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both replace established communal rituals with efficient digital systems, balancing access and speed against cultural continuity and shared practice."
+  },
+  {
+    "id": "e624782",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to maintain a demanding study routine for future capability or choose immediate social leisure and comfort."
+  },
+  {
+    "id": "e269940",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh disclosing private finances or medical circumstances to improve collective coordination against preserving deeply personal confidentiality."
+  },
+  {
+    "id": "e689149",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit urgent health protection against fulfilling a responsibility others depend on when substitution is difficult or unavailable."
+  },
+  {
+    "id": "e541035",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh enforcing a fixed fee rule against granting a compassionate exception for someone facing extraordinary personal hardship."
+  },
+  {
+    "id": "e182306",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer personal or commercial benefit while imposing broad environmental costs through emissions, noise, or lost public green space."
+  },
+  {
+    "id": "e935599",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require truthful reporting of a trusted person's misconduct despite possible disciplinary or financial consequences for that relationship."
+  },
+  {
+    "id": "e160554",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit maintaining essential personal financial security against using scarce savings to provide another person urgent assistance."
+  },
+  {
+    "id": "e365088",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast transformative expansion with preserving daily belonging in a close cooperative or community, where relationships are central stakes."
+  },
+  {
+    "id": "e463179",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both compare uncertain exploratory work with a predictable supported option, balancing discovery against reliable data and outcomes."
+  },
+  {
+    "id": "e986961",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh releasing a useful product quickly against delaying for compatibility, accessibility, and dependable quality checks."
+  },
+  {
+    "id": "e168057",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether exceptional hardship justifies departing from a deadline or deposit rule applied consistently to others."
+  },
+  {
+    "id": "e242508",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit a major leadership promotion against remaining near close family or colleagues whose everyday relationships sustain the protagonist."
+  },
+  {
+    "id": "e334539",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require exposing a trusted person's wrongdoing to preserve truth despite potential disgrace, sanctions, and damage to loyalty."
+  },
+  {
+    "id": "e809235",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance an immediate workable solution against delaying for more durable, reliable quality that serves people over time."
+  },
+  {
+    "id": "e742051",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain experimentation and independence with a safer established path offering predictable returns and support."
+  },
+  {
+    "id": "e896152",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both replace inherited shared practices with modern formats, weighing broader engagement and searchable convenience against continuity and ritual."
+  },
+  {
+    "id": "e269142",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh explaining private family or medical circumstances to improve understanding against honoring confidentiality and resisting social pressure."
+  },
+  {
+    "id": "e408018",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit strict enforcement of a previously applied policy against a compassionate exception for hardship threatening someone's livelihood."
+  },
+  {
+    "id": "e668083",
+    "choice": "X",
+    "confidence": "medium",
+    "explanation": "Both compare uncertain exploratory choices with protected predictable alternatives, weighing discovery and upside against reliability and safety."
+  },
+  {
+    "id": "e888857",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh career expansion and wider influence against leaving a close local team and community whose daily relationships matter."
+  },
+  {
+    "id": "e570367",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit prestigious career advancement against loyalty to close collaborators and a shared project built over many years."
+  },
+  {
+    "id": "e630427",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sacrificing scarce personal financial security to meet another person's urgent housing or caregiving need."
+  },
+  {
+    "id": "e409792",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer substantial personal profit while causing widespread environmental damage and shifting costs onto communities and ecosystems."
+  },
+  {
+    "id": "e167363",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require maintaining a long-term learning routine despite immediate comfort and leisure making attendance or practice unpleasant."
+  },
+  {
+    "id": "e711069",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting health from illness or injury against fulfilling a time-sensitive public responsibility when others rely on the protagonist."
+  },
+  {
+    "id": "e792904",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast exploratory freedom with structured protection, balancing discovery and autonomy against predictable safety and usable outcomes."
+  },
+  {
+    "id": "e534757",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit sustained practice for future mastery against immediate social leisure and comfort that interrupts gradual improvement."
+  },
+  {
+    "id": "e314391",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both replace inherited recordkeeping rituals with searchable digital systems, weighing efficiency against physical continuity and shared tradition."
+  },
+  {
+    "id": "e292429",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both compare open-ended experimental development with a conventional option offering predictable results, maintenance, or income."
+  },
+  {
+    "id": "e161001",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance quick restoration with a temporary adequate result against delaying for durable, carefully completed reliability."
+  },
+  {
+    "id": "e732875",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh career advancement requiring separation from loved ones against preserving daily family or community support."
+  },
+  {
+    "id": "e814005",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require reporting a trusted person's concealment or misconduct despite likely professional and relationship consequences."
+  },
+  {
+    "id": "e249597",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private financial gain through choices that impose broad environmental or cultural costs on the public."
+  },
+  {
+    "id": "e797829",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit protecting physical health against fulfilling a critical responsibility when many others lack a qualified replacement."
+  },
+  {
+    "id": "e958112",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast ambitious advancement with preserving a close supportive group whose shared daily life carries personal value."
+  },
+  {
+    "id": "e590577",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both involve revealing sensitive health or family history to improve understanding while risking loss of intimate privacy."
+  },
+  {
+    "id": "e782824",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require repetitive disciplined work toward an important future outcome despite immediate social enjoyment and relaxation."
+  },
+  {
+    "id": "e535396",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh preserving essential personal financial security against paying for another person's urgent medical need."
+  },
+  {
+    "id": "e257479",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow a personally preferred direction despite relatives' expectations and the approval or support they control."
+  },
+  {
+    "id": "e159584",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both replace inherited communal practices with mechanized or digital efficiency, weighing productivity against continuity and shared identity."
+  },
+  {
+    "id": "e649147",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require truthful reporting of a close person's misconduct despite risking livelihood, reputation, or loyalty within the relationship."
+  },
+  {
+    "id": "e451329",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh consistent application of a fee or deadline against compassionate exceptions for people facing serious hardship."
+  },
+  {
+    "id": "e478161",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit correcting a trusted person's deceptive record against protecting that person and preserving a longstanding relationship."
+  },
+  {
+    "id": "e664310",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private financial benefit from a production choice that creates substantial environmental harm across a wide area."
+  },
+  {
+    "id": "e149232",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit a demanding future-oriented practice against immediate comfort and rest that make postponement attractive."
+  },
+  {
+    "id": "e529610",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast prestigious leadership advancement requiring relocation with remaining close to family and the community sustaining daily life."
+  },
+  {
+    "id": "e920916",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh immediate availability using an adequate solution against delaying for a more durable, reliable result."
+  },
+  {
+    "id": "e138925",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance meeting an urgent delivery or audience deadline against postponing for thorough testing and polished quality."
+  },
+  {
+    "id": "e280448",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sustained skill-building practice despite immediate social comfort and enjoyable leisure being easier tonight."
+  },
+  {
+    "id": "e441087",
+    "choice": "both",
+    "confidence": "medium",
+    "explanation": "A and X share disciplined practice versus immediate leisure, while Y separately contrasts automation with ritual; both is strongest."
+  },
+  {
+    "id": "e293727",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit protecting recovery from injury against fulfilling a time-sensitive service responsibility others depend upon."
+  },
+  {
+    "id": "e885393",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh enforcing a published rule equally against granting a hardship exception for someone facing an exceptional crisis."
+  },
+  {
+    "id": "e899499",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require truthful reporting of a trusted colleague's concealed misconduct despite consequences for loyalty and professional standing."
+  },
+  {
+    "id": "e821660",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require repetitive effort toward preserving a valued outcome despite immediate comfort and leisure making the routine unattractive."
+  },
+  {
+    "id": "e687961",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally meaningful work despite family or peers expecting a prestigious path and offering approval."
+  },
+  {
+    "id": "e665956",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh disclosing intimate personal information to improve trust or understanding against retaining control over private history."
+  },
+  {
+    "id": "e470271",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast accepting private financial benefit with refusing or limiting actions that impose widespread environmental or public costs."
+  },
+  {
+    "id": "e445571",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both replace inherited hands-on communal art practices with efficient modern production, weighing novelty against shared cultural continuity."
+  },
+  {
+    "id": "e437483",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both pit disciplined training for future performance against immediate relaxation and social pleasure with no urgent deadline."
+  },
+  {
+    "id": "e806677",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both involve revealing private circumstances to improve collaboration or care while risking exposure and altered professional relationships."
+  },
+  {
+    "id": "e792357",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require truthful correction of a close person's dishonest record despite risking the person's housing, finances, or relationship."
+  },
+  {
+    "id": "e735739",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh preserving one's own essential financial stability against directly paying for another person's urgent medical need."
+  },
+  {
+    "id": "e117285",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to allow experimental freedom despite uncertain safety or constrain choices to verified, predictable systems."
+  },
+  {
+    "id": "e227316",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit protecting essential personal financial reserves against paying another person's urgent medical treatment immediately."
+  },
+  {
+    "id": "e433119",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh using scarce resources to help another person against protecting a vital reserve needed to keep one's own livelihood functioning."
+  },
+  {
+    "id": "e322785",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain exploration and discovery with a secure established option offering predictable conditions and outcomes."
+  },
+  {
+    "id": "e996895",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh consistent penalties against compassionate exceptions for emergencies, while X also shares the competing safety-versus-exploration structure."
+  },
+  {
+    "id": "e123276",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast sustained practice toward future capability with immediate comfort and relaxation at the end of the day."
+  },
+  {
+    "id": "e230868",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both ask whether exceptional hardship warrants departing from an established rule applied equally to others."
+  },
+  {
+    "id": "e400162",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh compassionate rule exceptions against equal enforcement, while Y concerns speed versus quality instead."
+  },
+  {
+    "id": "e599508",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit personal comfort or health against fulfilling a responsibility others depend on, despite no immediate personal reward."
+  },
+  {
+    "id": "e195720",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast major career advancement with remaining physically present in close family or community relationships."
+  },
+  {
+    "id": "e771712",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both directly weigh applying a fixed participation rule against an exception for hardship threatening someone's place or livelihood."
+  },
+  {
+    "id": "e759795",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both offer private financial gain through choices that impose diffuse environmental costs on many communities and households."
+  },
+  {
+    "id": "e629454",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast prestigious expansion and leadership with remaining close to the community or colleagues who provide belonging."
+  },
+  {
+    "id": "e208208",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance quick adequate service for everyone against slower, more thorough work producing safer and more reliable results."
+  },
+  {
+    "id": "e843984",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require reporting a trusted person's misuse or deception despite risking dismissal, reputation, and a valued relationship."
+  },
+  {
+    "id": "e692313",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting serious health against fulfilling an important commitment when others lack an effective replacement."
+  },
+  {
+    "id": "e460139",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private or professional benefit through choices that impose broad pollution or approval-related costs on others."
+  },
+  {
+    "id": "e721871",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both require sacrificing personal financial security to address another person's urgent and essential medical need."
+  },
+  {
+    "id": "e444915",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both require truthful disclosure of a close person's wrongdoing despite risking that person's career and the relationship."
+  },
+  {
+    "id": "e478381",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit correcting a friend's or relative's financial deception against protecting loyalty and a shared livelihood."
+  },
+  {
+    "id": "e558518",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh retaining scarce personal financial security against directly funding another person's urgent educational or housing need."
+  },
+  {
+    "id": "e796327",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain exploration with established predictable options, balancing experimentation and upside against reliable conditions and outcomes."
+  },
+  {
+    "id": "e990329",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally meaningful work despite family or influential peers expecting a more prestigious path."
+  },
+  {
+    "id": "e116018",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit career-defining advancement requiring prolonged separation against staying near close family and established relationships."
+  },
+  {
+    "id": "e367876",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require correcting a trusted person's dishonest record despite risking discipline, reputation, and a close relationship."
+  },
+  {
+    "id": "e612735",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh advancement through a major opportunity against remaining with a close cooperative or team that relies on daily participation."
+  },
+  {
+    "id": "e676013",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private profit from a scalable system while imposing broad environmental or human costs across many people."
+  },
+  {
+    "id": "e853899",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally fitting work or disclose private circumstances despite expectations and social approval pressures."
+  },
+  {
+    "id": "e224123",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both weigh private income against dispersed environmental costs imposed on shared resources and surrounding households."
+  },
+  {
+    "id": "e716892",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both require exposing a close person's falsified record despite family or friendship consequences and pressure to conceal it."
+  },
+  {
+    "id": "e158209",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting health from illness or injury against fulfilling a time-sensitive responsibility and preserving others' preparation."
+  },
+  {
+    "id": "e444577",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast timely usable output with delaying for thorough, durable quality and careful verification work."
+  },
+  {
+    "id": "e280334",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both involve disclosing private health or loss to gain workplace understanding while risking intimate information spreading professionally."
+  },
+  {
+    "id": "e876711",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue personally meaningful interests despite family or peers expecting a more prestigious approved path."
+  },
+  {
+    "id": "e564214",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh disclosure of private family or medical circumstances against confidentiality, with disclosure intended to repair coordination."
+  },
+  {
+    "id": "e780705",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer personal financial rewards from choices generating widespread unnecessary plastic waste and disposal costs for residents."
+  },
+  {
+    "id": "e594670",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both compare uncertain flexible experimentation with a predictable established option offering reliable service or conditions."
+  },
+  {
+    "id": "e214638",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both require reporting trusted colleagues' concealed misconduct despite likely job loss and damage to loyalty."
+  },
+  {
+    "id": "e286022",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting health from injury or vocal strain against completing a promised public responsibility."
+  },
+  {
+    "id": "e819740",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast uncertain independent exploration with a structured established path offering predictable progress and outcomes."
+  },
+  {
+    "id": "e620045",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both balance meeting an external deadline with adequate work against delaying for careful quality or truthful verification."
+  },
+  {
+    "id": "e358760",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require repetitive practice toward a distant goal despite immediate comfort and leisure being more attractive."
+  },
+  {
+    "id": "e875287",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personal preference despite close supporters expecting a conventional or prestigious alternative."
+  },
+  {
+    "id": "e671952",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both pit a prestigious leadership opportunity requiring separation against remaining with close relationships that anchor daily life."
+  },
+  {
+    "id": "e115286",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both ask whether to defend a personally meaningful project despite donors, parents, or institutions offering approval only for their preferred path."
+  },
+  {
+    "id": "e480131",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance prompt delivery with imperfect work against delaying for thorough inspection and dependable quality."
+  },
+  {
+    "id": "e628765",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both replace inherited manual systems with efficient digital tools, weighing convenience against physical continuity and team identity."
+  },
+  {
+    "id": "e926843",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sustained practice toward future capability despite immediate social comfort and relaxation being more attractive."
+  },
+  {
+    "id": "e794699",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast elite career advancement requiring separation with remaining close to family and community relationships."
+  },
+  {
+    "id": "e942370",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting health against fulfilling an important commitment when others lack a trained replacement."
+  },
+  {
+    "id": "e779700",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh withdrawing to protect serious injury against completing a time-sensitive responsibility on which others depend."
+  },
+  {
+    "id": "e479745",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast exceptional career opportunities with prolonged separation from close family or intimate daily relationships."
+  },
+  {
+    "id": "e867758",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sacrificing essential personal reserves to help another person or household facing immediate serious need."
+  },
+  {
+    "id": "e402556",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both replace inherited physical archival practices with modern methods, weighing new capability against generational continuity."
+  },
+  {
+    "id": "e782459",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance immediate usable delivery against delaying for careful verification and more dependable final quality."
+  },
+  {
+    "id": "e989337",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both contrast quick adequate completion with slower work that provides safer, more durable, reliable results."
+  },
+  {
+    "id": "e675540",
+    "choice": "Y",
+    "confidence": "medium",
+    "explanation": "Both contrast uncertain experimentation with a protected predictable option, balancing innovation and upside against insurance and safety."
+  },
+  {
+    "id": "e821044",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both replace familiar hands-on services with digital or mechanized efficiency, risking loss of valued personal routines and relationships."
+  },
+  {
+    "id": "e245586",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private financial benefit from disposable systems that impose diffuse waste and environmental costs on surrounding communities."
+  },
+  {
+    "id": "e936853",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally meaningful work despite family or professional expectations of a more prestigious path."
+  },
+  {
+    "id": "e836308",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both involve sharing private health or financial history to improve understanding while risking exposure and changed professional relationships."
+  },
+  {
+    "id": "e793029",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both weigh reporting a trusted professional's misconduct to protect truth or safety against protecting friendship from severe consequences."
+  },
+  {
+    "id": "e660306",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both balance releasing a usable product quickly against delaying for accessibility, testing, and dependable quality."
+  },
+  {
+    "id": "e167029",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both compare open-ended creative exploration with controlled predictable production, balancing discovery against reliable project completion."
+  },
+  {
+    "id": "e602550",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast open-ended exploration with established predictable alternatives, weighing discovery and autonomy against reliable outcomes."
+  },
+  {
+    "id": "e269359",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to follow personally valued work despite family and peers expecting a higher-status career path."
+  },
+  {
+    "id": "e372525",
+    "choice": "neither",
+    "confidence": "medium",
+    "explanation": "A centers queue fairness under sudden hardship, while X and Y concern personal financial aid and loan limits rather than the same rule conflict."
+  },
+  {
+    "id": "e661245",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast modernization of inherited rituals with preserving communal identity, though Y also shares scarce-resource aid stakes."
+  },
+  {
+    "id": "e382692",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit expansion and relocation opportunities against preserving close daily relationships and inherited communal or family routines."
+  },
+  {
+    "id": "e358391",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both require exposing a friend's dishonest financial conduct despite risking livelihood, reputation, and a valued relationship."
+  },
+  {
+    "id": "e838439",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both ask whether to pursue a personally meaningful direction despite family or peers expecting a conventional approved path."
+  },
+  {
+    "id": "e671472",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both contrast personal artistic or career preference with expectations from close supporters whose approval affects future opportunities."
+  },
+  {
+    "id": "e211999",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh revealing private hardship or medical information to build understanding against protecting intimate confidentiality."
+  },
+  {
+    "id": "e295481",
+    "choice": "both",
+    "confidence": "medium",
+    "explanation": "Both compare uncertain exploratory opportunities with secure established alternatives, while Y also shares that uncertainty-versus-security structure."
+  },
+  {
+    "id": "e609396",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both require sacrificing essential personal financial security to provide another person immediate housing or livelihood support."
+  },
+  {
+    "id": "e245015",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit protecting health after illness against honoring a responsibility that workers, customers, or colleagues depend on."
+  },
+  {
+    "id": "e979543",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer private financial benefit from choices that create widespread pollution, waste, and environmental burdens for others."
+  },
+  {
+    "id": "e948707",
+    "choice": "Y",
+    "confidence": "high",
+    "explanation": "Both contrast efficient modern replacement with preserving visible inherited craft and the relationships formed around it."
+  },
+  {
+    "id": "e112381",
+    "choice": "X",
+    "confidence": "high",
+    "explanation": "Both offer personal financial relief or reward while imposing noise, waste, or disposal costs on the wider public."
+  },
+  {
+    "id": "e784832",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh protecting scarce livelihood resources against helping another person facing urgent material hardship immediately."
+  },
+  {
+    "id": "e429520",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both pit equal enforcement of a cooperative rule against compassionate exceptions for severe individual hardship."
+  },
+  {
+    "id": "e126119",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both require protecting health from serious physical strain or fulfilling a critical responsibility others cannot easily replace."
+  },
+  {
+    "id": "e751725",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both replace inherited communal rituals with efficient digital systems, weighing precision against continuity and shared identity."
+  },
+  {
+    "id": "e239295",
+    "choice": "both",
+    "confidence": "high",
+    "explanation": "Both weigh consistent attendance or refund rules against compassionate exceptions for people facing exceptional personal crises."
+  }
+]
