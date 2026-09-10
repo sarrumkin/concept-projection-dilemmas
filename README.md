@@ -57,13 +57,9 @@ No parameters are fitted to the corpus labels. Reasons are not extracted from in
 
 ![Accuracy by representation](docs/figures/accuracy.png)
 
-Concept207 corrects **55** baseline errors and introduces **21** new errors. Hybrid50 corrects 36 and introduces 14. The intervals use 10,000 paired bootstrap draws over conflicts and topics, retaining both variants in each sampled cell.
+Concept207 corrects **55** baseline errors and introduces **21** new errors. Hybrid50 corrects 36 and introduces 14.
 
-![Paired accuracy differences and descriptive intervals](docs/figures/effects.png)
-
-Thirty Gaussian maps and thirty random orientations with the attribute map's singular spectrum are evaluated separately and in 50/50 mixtures. **Concept207 exceeds all 60 standalone controls**; the best reaches 55.83%. One of the 60 random mixtures exceeds Hybrid50. The map comparisons are descriptive; they do not constitute additional independent datasets.
-
-![Random projections and attribute-based representations](docs/figures/random_controls.png)
+The [additional results](docs/additional_results.md) present the bootstrap intervals and random-projection controls, with figures and methodological notes. Both analyses are also included in the [notebook](notebooks/research.ipynb).
 
 ## Interpretation and limitations
 

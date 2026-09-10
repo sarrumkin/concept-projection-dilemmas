@@ -6,6 +6,7 @@ LICENSE
 NOTICE
 README.md
 data/bhatia/attributes.csv
+docs/additional_results.md
 docs/data.md
 docs/example_review.json
 docs/figures/accuracy.png

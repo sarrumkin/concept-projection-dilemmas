@@ -54,8 +54,8 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "README.md": {
-      "sha256": "e92e4fc16f7b2c7ffbead37e5cdbce98d37bb835f5878e62e2f4c94ecd4215fc",
-      "bytes": 8086,
+      "sha256": "e4e8dc1e0aaa9820fb101f8db063668532d42cb21ca110bfa6f918af7984884b",
+      "bytes": 7661,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -63,6 +63,12 @@
       "sha256": "7491faea757869d926553c111f740555e5e1ac52abcb955a13315d53fb93f945",
       "bytes": 102770,
       "origin": "unmodified Bhatia OSF attribute file; upstream MIT notice in NOTICE",
+      "license": "MIT; third-party attribution in NOTICE"
+    },
+    "docs/additional_results.md": {
+      "sha256": "b557a73863ebda4492a31216a45c7452c70ec68241136fb6af729a73a2d78c85",
+      "bytes": 2117,
+      "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
     "docs/data.md": {
@@ -156,8 +162,8 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "release-allowlist.txt": {
-      "sha256": "d5f7f0a2a14530e0d9003e1c8bed237d4f4725a2107da72e7f1eeb3f944c161a",
-      "bytes": 9597,
+      "sha256": "ada72b92ad5f56edc9245490f63298dccca66e4927f9794b67c2e406c0b1edf7",
+      "bytes": 9624,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
