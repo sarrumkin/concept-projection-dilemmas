@@ -13,6 +13,8 @@ This experiment examines whether a fixed attribute projection helps identify a s
 
 Bhatia and colleagues analysed more than 100,000 dilemmas from Reddit and a US survey. Their pipeline extracted benefits and costs with GPT and represented them using SBERT and 207 attributes. In Study 4a, fitted individual attribute models achieved a mean $R^2$ of 0.24, compared with 0.14 for text and random-attribute models. Those fits used eight dilemmas per participant; this was not a dilemma-retrieval benchmark. The present experiment borrows the attribute system and applies it to whole texts.
 
+**Main findings on this fixed corpus:** Concept207 achieves the highest triplet accuracy. In the exploratory corpus retrieval task, Hybrid50 outperforms both Embedding and Concept207 separately at nDCG@5 and nDCG@10. These are distinct evaluations; the retrieval extension was not prespecified.
+
 ## Objective and hypotheses
 
 Each triplet contains an anchor A, a candidate B with the same authored conflict class in a different topic, and a candidate C with a different conflict in the same assigned topic. The target ordering is $d(A,B)<d(A,C)$.
@@ -93,6 +95,14 @@ Concept207 has 207 dimensions; Hybrid50 has 591. No weights or prototypes are fi
 
 The descriptive 95% intervals use 10,000 paired bootstrap draws over conflicts and topics, retaining both variants of each sampled cell. They describe sensitivity within this synthetic design, not uncertainty for a population of naturally occurring dilemmas.
 
+### Exploratory corpus retrieval
+
+As an exploratory extension, each of the 240 anchors A ranks all 719 other A/B/C texts by cosine similarity, with the query itself excluded and no topic filter. Same-topic distractors therefore remain in the candidate pool. Binary relevance means sharing the query's authored conflict class: A and B use `conflict`, while C uses `negative_conflict`.
+
+For $k\in\{5,10\}$, $\mathrm{DCG}@k=\sum_{r=1}^{k}\mathrm{rel}_r/\log_2(r+1)$ and $\mathrm{nDCG}@k=\mathrm{DCG}@k/\mathrm{IDCG}@k$, where IDCG orders the same relevance labels ideally at the same cutoff. Exact similarity ties are averaged over all tied permutations, including ties crossing the cutoff. The table reports the macro mean over the 240 queries; `retrieval_per_query.csv` retains each method/query score and `retrieval_summary.csv` retains the three method means.
+
+This extension was not prespecified and has no human corpus-wide retrieval judgments. It supplements the primary triplet experiment, using the existing authored labels as retrieval relevance.
+
 ## Full-corpus results
 """),
 code('''results_table = summary.set_index("method").loc[METHODS, ["correct_score", "n_triplets", "accuracy", "mean_margin"]].copy()
@@ -104,7 +114,12 @@ primary_intervals.insert(0, "Method", [NAMES[m] for m in primary_intervals.index
 display(primary_intervals.style.hide(axis="index").format({"difference": "{:+.2f}", "low": "{:+.2f}", "high": "{:+.2f}"}))
 subprocess.run([sys.executable, "scripts/make_figures.py", "--results", str(RELATIVE_RUN), "--output", str(RELATIVE_RUN / "figures")], cwd=ROOT, check=True)
 display(Image(filename=str(RUN / "figures/accuracy.png")))
-display(Image(filename=str(RUN / "figures/effects.png")))'''),
+display(Image(filename=str(RUN / "figures/effects.png")))
+display(Markdown("### Exploratory corpus retrieval — authored conflict relevance"))
+retrieval_table = pd.read_csv(RUN / "retrieval_summary.csv").set_index("method").loc[METHODS, ["n_queries", "ndcg_at_5", "ndcg_at_10"]].copy()
+retrieval_table.insert(0, "Method", [NAMES[m] for m in retrieval_table.index])
+retrieval_table = retrieval_table.rename(columns={"n_queries": "Queries", "ndcg_at_5": "nDCG@5", "ndcg_at_10": "nDCG@10"})
+display(retrieval_table.style.hide(axis="index").format({"Queries": "{:.0f}", "nDCG@5": "{:.4f}", "nDCG@10": "{:.4f}"}))'''),
 md("""## Random controls and robustness
 
 Thirty Gaussian projections and thirty random orientations with the same singular spectrum as the attribute map are evaluated on the same texts, separately and in 50/50 mixtures. Seeds and all individual scores are retained. The control maps are not additional independent text datasets.
@@ -123,7 +138,11 @@ md("""## Conclusion and scope
 
 On the fixed 240-triplet corpus, Concept207 increases accuracy from **46.25% to 60.42% (+14.17 percentage points)**, correcting 55 baseline errors and introducing 21 new ones. Its accuracy exceeds each of the 60 standalone random controls. The secondary Hybrid50 representation achieves 55.42% (+9.17 points). These observations establish a measurable improvement for the chosen attribute geometry on this test.
 
-The corpus and labels are AI-generated, thematic roles require further validation, and no independent human assessment was performed. The results concern a two-candidate conflict-matching task; they do not establish general retrieval performance or a universal advantage of projection.
+**For exploratory corpus retrieval, Hybrid50 outperforms both component methods separately on this fixed corpus:** nDCG@5 is **0.6725**, compared with 0.6168 for Embedding and 0.5995 for Concept207; nDCG@10 is **0.6099**, compared with 0.5576 and 0.5458, respectively. Concept207 remains the strongest method on the original triplet accuracy task.
+
+Triplet accuracy checks the ordering of B against one same-topic C; nDCG evaluates the top of a ranking over all 719 other texts. The different method rankings therefore concern different tasks. A possible interpretation is that the two component similarities complement each other in corpus retrieval, but these results do not establish that mechanism or a universal advantage for the hybrid.
+
+The corpus and labels are AI-generated, thematic roles require further validation, and no independent human assessment was performed. The primary results concern a two-candidate conflict-matching task. The exploratory nDCG extension uses the same authored conflict labels; these experiments do not establish general retrieval performance or a universal advantage of projection.
 
 **Editorial provenance.** Concept207 is the author's primary research focus in this presentation. The historical assistant-written protocol designated Hybrid50 − embedding as its principal contrast. That protocol, all pre-score inputs and all computed comparisons are retained; the present emphasis is not represented as the original protocol priority.
 

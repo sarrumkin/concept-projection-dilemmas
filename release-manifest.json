@@ -54,8 +54,8 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "README.md": {
-      "sha256": "e4e8dc1e0aaa9820fb101f8db063668532d42cb21ca110bfa6f918af7984884b",
-      "bytes": 7661,
+      "sha256": "77b5bb27e8df201891508ab9f43c8b186b9b08adbbea62ab588514991cd5bd52",
+      "bytes": 9971,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -66,8 +66,8 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "docs/additional_results.md": {
-      "sha256": "b557a73863ebda4492a31216a45c7452c70ec68241136fb6af729a73a2d78c85",
-      "bytes": 2117,
+      "sha256": "bebdfed4a94d2c62b24d7c018c94ce31235197495e72bb95cceea2e0a03fb8a8",
+      "bytes": 4305,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -120,14 +120,14 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "docs/methods.md": {
-      "sha256": "d338a5ccb4c1e86c139fd00642593cfc1a7d8b63230f94b2a52a654526484d0a",
-      "bytes": 3545,
+      "sha256": "3dbe968e9dd114b4f3eecffacfc572f0e237c60811ce9cf795cf67ba984d47c8",
+      "bytes": 6520,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
     "docs/reproduction.md": {
-      "sha256": "d30f55763829f7001cc9a57427d99ccab955c689d35ed6b35e557afa9c0a2942",
-      "bytes": 4219,
+      "sha256": "b033b9ef0add79c351517fdb59a4f050eeaab6e3e5632acfa2b977acca3c3f60",
+      "bytes": 4797,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -155,21 +155,27 @@
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
+    "ndcg.py": {
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE",
+      "sha256": "e253d804a8a20fb54dde210ec3b49b53d28eb2c42a23133ce72cd01331a28932",
+      "bytes": 4581
+    },
     "notebooks/research.ipynb": {
-      "sha256": "bdc52bd701d6cbe019e1f5aae1b0db7c6307ee22b3aa14fb4975a4e883d993a5",
-      "bytes": 296347,
+      "sha256": "691ac990f126535edbf28ee1eca7d51cc514b9dc7443d6159ddceec9ac9053ff",
+      "bytes": 301868,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
     "release-allowlist.txt": {
-      "sha256": "ada72b92ad5f56edc9245490f63298dccca66e4927f9794b67c2e406c0b1edf7",
-      "bytes": 9624,
+      "sha256": "7c8a837df67c1af9f8f4ef29e9af548835a91e3cbeb35a460f0a0c39d64bbe97",
+      "bytes": 9651,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
     "reproduce.py": {
-      "sha256": "bd570df2de32d8e5168a248dce32afb2d9985f4a63c0e2bd8d068f06dece6391",
-      "bytes": 12655,
+      "sha256": "e7181ba066abb9c5f686b03fbc7c9957ea2beac73c053be015c9f5dda3120d75",
+      "bytes": 14083,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -192,8 +198,8 @@
       "license": "MIT; third-party attribution in NOTICE"
     },
     "scripts/build_notebook.py": {
-      "sha256": "9cc8348ab5270467791e2879443bdf2f2e62cae558e2f920a7743de594b2aae3",
-      "bytes": 12087,
+      "sha256": "2b7d68d054fa8f175d0aebaff951a49636791750ad2ef5ac467071447b0fadc9",
+      "bytes": 14826,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     },
@@ -1385,9 +1391,15 @@
       "origin": "preserved study artifact; see source_transformations.json",
       "license": "MIT; third-party attribution in NOTICE"
     },
+    "tests/test_ndcg.py": {
+      "origin": "public research presentation, reproduction code or release metadata",
+      "license": "MIT; third-party attribution in NOTICE",
+      "sha256": "8e81ce5c16ab2ed1a02024ca4cc939520bf681ab8b91add00864ee691d84edd9",
+      "bytes": 5703
+    },
     "tests/test_reproduce.py": {
-      "sha256": "299c1c209504427653806ad5c44a3e53181d20cb3a9a55bf02e4e3c3b909191d",
-      "bytes": 3178,
+      "sha256": "3e86a742edc9afe480b2256a454a556db5d844c70769f8fd15f9000cd4fe8e63",
+      "bytes": 4822,
       "origin": "public research presentation, reproduction code or release metadata",
       "license": "MIT; third-party attribution in NOTICE"
     }

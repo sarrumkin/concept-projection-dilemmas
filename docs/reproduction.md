@@ -2,6 +2,8 @@
 
 The executable entry point is `reproduce.py`. It loads the preserved calculation in `study/original/experiment.py`, verifies the 194 public artifact hashes and the frozen input/design manifests, and writes to a separate output directory. Existing nonempty output directories and protected source directories are rejected.
 
+After verifying the original result tables, it computes exploratory nDCG@5 and nDCG@10 with `ndcg.py` from that run's `main_vectors.npz`. Both modes write `retrieval_per_query.csv` (720 rows) and `retrieval_summary.csv` (3 rows); columns `ndcg_at_5` and `ndcg_at_10` contain scores on a 0–1 scale. The protocol and output counts are recorded under `exploratory_retrieval` in `verification.json`. These additional tables are not compared with the frozen experiment. The notebook displays their method means. See the [retrieval methods](methods.md#exploratory-retrieval-ndcg).
+
 | Mode | Text vectors | Attribute prototypes | Recomputed results |
 |---|---|---|---|
 | `cached` | Supplied 720 × 384 matrix | Supplied 207 × 384 matrix | All primary comparisons, controls, intervals and sensitivity tables |

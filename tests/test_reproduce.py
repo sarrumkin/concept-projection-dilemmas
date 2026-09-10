@@ -31,6 +31,24 @@ def test_cached_reproduction_computes_expected_scientific_outputs(tmp_path):
     assert summary.loc["concept207", "correct_score"] == 145
     assert summary.loc["concept207", "n_triplets"] == 240
     assert summary.loc["hybrid50", "accuracy"] >= summary.loc["embedding", "accuracy"]
+    retrieval = pd.read_csv(verification_path.parent / "retrieval_per_query.csv")
+    ranking_summary = pd.read_csv(verification_path.parent / "retrieval_summary.csv").set_index("method")
+    assert len(retrieval) == 720
+    assert not retrieval.duplicated(["id", "method"]).any()
+    assert retrieval.n_candidates.eq(719).all()
+    assert retrieval.n_relevant.eq(59).all()
+    assert ranking_summary.n_queries.eq(240).all()
+    assert verification["exploratory_retrieval"]["frozen_reference_comparison"] is False
+    # Independently computed from all-pairs cosine ranking and binary labels.
+    assert ranking_summary.loc["embedding", "ndcg_at_5"] == pytest.approx(0.6167957864916223)
+    assert ranking_summary.loc["concept207", "ndcg_at_10"] == pytest.approx(0.5457676170142596)
+    assert ranking_summary.loc["hybrid50", "ndcg_at_10"] == pytest.approx(0.6098630930061627)
+    for metric in ["ndcg_at_5", "ndcg_at_10"]:
+        assert retrieval[metric].between(0, 1).all()
+        pd.testing.assert_series_equal(
+            ranking_summary[metric], retrieval.groupby("method")[metric].mean(),
+            check_exact=False, atol=1e-11, rtol=0,
+        )
 
 
 def test_saved_embedding_corruption_is_detected(monkeypatch, tmp_path):
@@ -64,3 +82,10 @@ def test_full_mode_uses_fresh_encoder_for_texts_and_anchors(monkeypatch, tmp_pat
     with np.load(tmp_path / "full" / "anchors_multi.npz", allow_pickle=False) as anchors:
         assert anchors["anchors"].shape == (207, 384)
         assert len(anchors["names"]) == 207
+    with np.load(tmp_path / "full" / "main_vectors.npz", allow_pickle=False) as vectors:
+        rows, _ = reproduce._load_experiment().read_data()
+        _, expected = reproduce.evaluate_retrieval(
+            rows, vectors["ids"], {method: vectors[method] for method in ["embedding", "concept207", "hybrid50"]},
+        )
+    actual = pd.read_csv(tmp_path / "full" / "retrieval_summary.csv")
+    pd.testing.assert_frame_equal(actual, expected, check_exact=False, atol=1e-11, rtol=0)

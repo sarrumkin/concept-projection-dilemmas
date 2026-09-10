@@ -4,6 +4,8 @@
 
 A reproducible experiment on conceptual representations of text embeddings. The study tests whether **Concept207**, a fixed projection onto decision attributes, helps identify a shared conflict in dilemmas with different subject matters. On 240 English triplets, Concept207 matches the authored conflict relation in **145 cases (60.42%)**, compared with **111 (46.25%)** for the original embedding.
 
+In an additional corpus-retrieval evaluation, **Hybrid50 outperforms both the original embedding and Concept207 used separately**: nDCG@10 is **0.6099**, versus 0.5576 and 0.5458, respectively. The same ordering holds at nDCG@5. These findings distinguish the best representation for the authored two-candidate comparison (Concept207) from the best for retrieval over this corpus (Hybrid50).
+
 The attribute system originates from [Bhatia et al. (PNAS, 2025)](https://doi.org/10.1073/pnas.2406489122), who analysed more than 100,000 dilemmas from Reddit and a US survey. Their pipeline extracted benefits and costs with GPT and mapped them onto 207 attributes using SBERT. In Study 4a, fitted individual attribute models achieved a mean R² of 0.24, versus 0.14 for text and random-attribute models. Those fits used eight dilemmas per participant; they did not measure dilemma retrieval. The present study borrows the attributes and compares whole texts.
 
 ## Objective and hypotheses
@@ -61,9 +63,25 @@ Concept207 corrects **55** baseline errors and introduces **21** new errors. Hyb
 
 The [additional results](docs/additional_results.md) present the bootstrap intervals and random-projection controls, with figures and methodological notes. Both analyses are also included in the [notebook](notebooks/research.ipynb).
 
+## Exploratory corpus retrieval: nDCG
+
+As an additional analysis, each of the 240 A texts queries the other 719 corpus texts, ranked by cosine similarity. A candidate is relevant when its authored conflict class matches the query's class; each query has 59 relevant candidates. The query itself is excluded, and topics do not filter candidates. nDCG measures how early relevant texts appear, normalized by the ideal ranking at the same cutoff. Scores below are means over all queries; higher is better.
+
+| Representation | nDCG@5 | nDCG@10 |
+|---|---:|---:|
+| Embedding | 0.6168 | 0.5576 |
+| Concept207 | 0.5995 | 0.5458 |
+| **Hybrid50** | **0.6725** | **0.6099** |
+
+**For this corpus-retrieval task, the hybrid works better than either method used separately.** At nDCG@10, Hybrid50 gains **+0.0523 over Embedding** and **+0.0641 over Concept207**; it also leads at nDCG@5. Concept207's triplet accuracy advantage does not extend to the retrieval ranking.
+
+This analysis was added after the original experiment; it uses authored class labels without corpus-wide human relevance judgments. It does not replace the primary triplet comparison. [Retrieval protocol and tie handling](docs/methods.md#exploratory-retrieval-ndcg), [interpretation of the different rankings](docs/additional_results.md#corpus-retrieval-and-the-hybrid-advantage).
+
 ## Interpretation and limitations
 
-The attribute projection improves conflict matching on this fixed synthetic test. This result does not establish a universal projection advantage or general retrieval performance. The texts and labels are AI-generated, assigned thematic roles require validation, and there are no independent human judgments. Bootstrap intervals describe sensitivity within this design, not population uncertainty.
+The results support two task-specific conclusions: **Concept207 performs best on the authored B-versus-C comparison; Hybrid50 performs best on corpus retrieval at both nDCG cutoffs.** A correct B-versus-C preference can occur far below the first ten retrieval positions. The hybrid's advantage is consistent with the two representations providing complementary similarity signals, although this experiment does not establish the causal mechanism.
+
+These results do not establish a universal projection or hybrid advantage or general retrieval performance. The texts and labels are AI-generated, assigned thematic roles require validation, and there are no independent human judgments. Bootstrap intervals for the original triplet analysis describe sensitivity within this design, not population uncertainty.
 
 Both final AI audits agree with the authored choice on 225 triplets. Joint agreement was initially 140; candidate-letter/explanation alignment corrections increased it to 225. All 240 triplets remain in the primary evaluation. [Data and audit history](docs/data.md), [research branch reports](docs/research_branches.md).
 
@@ -80,7 +98,7 @@ python -m pip install -r requirements.txt
 python reproduce.py --mode cached --output artifacts/cached
 ```
 
-Cached mode recomputes all 720 primary and 28,800 control comparisons and the bootstrap intervals from supplied embeddings. It requires no model download or API key after dependencies are installed.
+Cached mode recomputes all 720 primary and 28,800 control comparisons, the bootstrap intervals, and exploratory nDCG from supplied embeddings. It writes per-query retrieval scores to `retrieval_per_query.csv` and method means to `retrieval_summary.csv` alongside the original result tables. It requires no model download or API key after dependencies are installed.
 
 For a full run, including fresh embeddings of the texts **and attribute descriptions**:
 

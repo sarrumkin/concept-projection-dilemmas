@@ -21,6 +21,7 @@ docs/reproduction_check.json
 docs/research_branches.md
 docs/source_audit.md
 docs/source_transformations.json
+ndcg.py
 notebooks/research.ipynb
 release-allowlist.txt
 release-manifest.json
@@ -227,4 +228,5 @@ study/original/results/transitions.csv
 study/original/verification.json
 study/original/write_report.py
 study/source-verification.json
+tests/test_ndcg.py
 tests/test_reproduce.py

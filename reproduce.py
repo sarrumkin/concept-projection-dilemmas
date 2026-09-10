@@ -16,6 +16,8 @@ from typing import Callable
 import numpy as np
 import pandas as pd
 
+from ndcg import evaluate_retrieval
+
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "study" / "original"
@@ -223,7 +225,7 @@ def run(mode: str, output: str | Path) -> Path:
         try:
             captured = io.StringIO()
             with contextlib.redirect_stdout(captured):
-                module.run()
+                rows, _, _ = module.run()
             action = "Recomputing from saved embeddings and fixed anchors." if mode == "cached" else "Freshly encoded 720 texts and regenerated 207 anchors."
             print(action, flush=True)
             lines = captured.getvalue().splitlines()
@@ -240,6 +242,26 @@ def run(mode: str, output: str | Path) -> Path:
         with np.load(destination / "main_vectors.npz", allow_pickle=False) as fresh_vectors, np.load(SOURCE / "results" / "main_vectors.npz", allow_pickle=False) as reference_vectors:
             provenance["text_embeddings_max_abs_error_vs_reference"] = float(np.max(np.abs(fresh_vectors["embedding"] - reference_vectors["embedding"])))
     verification = _comparison(destination, mode)
+    with np.load(destination / "main_vectors.npz", allow_pickle=False) as saved:
+        retrieval, retrieval_summary = evaluate_retrieval(
+            rows, saved["ids"], {method: saved[method] for method in module.METHODS},
+        )
+    retrieval.to_csv(destination / "retrieval_per_query.csv", index=False, float_format="%.12g")
+    retrieval_summary.to_csv(destination / "retrieval_summary.csv", index=False, float_format="%.12g")
+    verification["exploratory_retrieval"] = {
+        "query_role": "A", "n_queries": len(rows), "n_candidates_per_query": len(rows) * 3 - 1,
+        "candidate_pool": "all other corpus texts; self excluded; no topic filter",
+        "relevance": "binary authored conflict match; A/B=conflict, C=negative_conflict",
+        "ranking": "descending cosine similarity", "cutoffs": [5, 10],
+        "gain": "binary", "discount": "1/log2(rank+1)",
+        "ties": "average over all permutations within exact score ties, including cutoff",
+        "aggregation": "unweighted mean over A queries",
+        "per_query_rows": len(retrieval), "summary_rows": len(retrieval_summary),
+        "files": ["retrieval_per_query.csv", "retrieval_summary.csv"],
+        "frozen_reference_comparison": False,
+    }
+    print("Exploratory corpus retrieval (authored conflict labels):", flush=True)
+    print(retrieval_summary.to_string(index=False), flush=True)
     verification["public_source_artifacts_verified"] = verified_artifacts
     verification["provenance"] = provenance
     (destination / "verification.json").write_text(json.dumps(verification, indent=2, ensure_ascii=False) + "\n")
